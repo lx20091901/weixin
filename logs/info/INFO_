@@ -1,0 +1,12 @@
+2015-07-01 15:13:56 INFO - 1 [main] I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2015-07-01 15:13:56 INFO - 19 [main] Retrying request
+2015-07-01 15:14:17 INFO - 21019 [main] I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2015-07-01 15:14:17 INFO - 21021 [main] Retrying request
+2015-07-01 15:14:38 INFO - 42026 [main] I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2015-07-01 15:14:38 INFO - 42028 [main] Retrying request
+2015-07-01 15:21:38 INFO - 0 [main] I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2015-07-01 15:21:39 INFO - 14 [main] Retrying request
+2015-07-01 15:22:00 INFO - 21019 [main] I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2015-07-01 15:22:00 INFO - 21021 [main] Retrying request
+2015-07-01 15:22:21 INFO - 42022 [main] I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2015-07-01 15:22:21 INFO - 42023 [main] Retrying request

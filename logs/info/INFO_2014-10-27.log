@@ -1,0 +1,467 @@
+2014-10-27 08:38:49 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-27 08:39:06 ERROR - 17280 [main] WeixinContextFactory INIT FAILED
+2014-10-27 08:39:06 ERROR - 17288 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-27 08:39:06 WARN - 17291 [main] unavailable
+java.lang.RuntimeException: java.io.StreamCorruptedException: invalid stream header: 44004200
+	at com.bokesoft.myerp.exception.BKException.dealEx(BKException.java:115)
+	at com.bokesoft.myerp.billmeta.SerializeUtil.readObjectNotNull(SerializeUtil.java:636)
+	at com.bokesoft.myerp.common.midproxy.RequestImpl.parserClient(RequestImpl.java:741)
+	at com.bokesoft.myerp.common.midproxy.Request.parserClient(Request.java:385)
+	at vS.doAction(Unknown Source)
+	at com.bokesoft.myerp.mid.proxy.core.MidSrvCore.a(Unknown Source)
+	at com.bokesoft.myerp.mid.proxy.core.MidSrvCore.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:565)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1360)
+	at com.bokesoft.myerp.mid.web.util.WebFilter.doFilter(WebFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1331)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:477)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1031)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:965)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:449)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:925)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:857)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.io.StreamCorruptedException: invalid stream header: 44004200
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:803)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:298)
+	at com.bokesoft.myerp.billmeta.SerializeUtil.readObjectNotNull(SerializeUtil.java:629)
+	... 34 more
+2014-10-27 08:39:06 WARN - 17298 [main] FAILED weixin: javax.servlet.ServletException: com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+javax.servlet.ServletException: com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+	at com.bokesoft.thirdparty.weixin.WeixinServlet.init(WeixinServlet.java:58)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:532)
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:344)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at start.StartWeixinHttpServer.start(StartWeixinHttpServer.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at start.StartWeixinHttpServer.main(StartWeixinHttpServer.java:26)
+Caused by: com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+	at com.bokesoft.myerp.common.Utils.preTransException(Utils.java:49)
+	at com.bokesoft.myerp.common.Utils.transExption2Bytes(Utils.java:84)
+	at com.bokesoft.myerp.common.Utils.exception2Bytes(Utils.java:125)
+	at com.bokesoft.myerp.common.midproxy.RequestImpl.setErr(RequestImpl.java:208)
+	at com.bokesoft.myerp.common.midproxy.Request.setErr(Request.java:186)
+	at vS.doAction(Unknown Source)
+	at com.bokesoft.myerp.mid.proxy.core.MidSrvCore.a(Unknown Source)
+	at com.bokesoft.myerp.mid.proxy.core.MidSrvCore.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:565)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1360)
+	at com.bokesoft.myerp.mid.web.util.WebFilter.doFilter(WebFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1331)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:477)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1031)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:965)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:449)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:925)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:857)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:701)
+2014-10-27 08:39:07 WARN - 17567 [main] Failed startup of context o.e.j.w.WebAppContext{/yigo,file:/F:/YIGO-Weixin-Dev/trunk/yigo-weixin-2.2/src/main/webapp/},F:\YIGO-Weixin-Dev\trunk\yigo-weixin-2.2\src\main\webapp
+javax.servlet.ServletException: com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+	at com.bokesoft.thirdparty.weixin.WeixinServlet.init(WeixinServlet.java:58)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:532)
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:344)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at start.StartWeixinHttpServer.start(StartWeixinHttpServer.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at start.StartWeixinHttpServer.main(StartWeixinHttpServer.java:26)
+Caused by: com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+	at com.bokesoft.myerp.common.Utils.preTransException(Utils.java:49)
+	at com.bokesoft.myerp.common.Utils.transExption2Bytes(Utils.java:84)
+	at com.bokesoft.myerp.common.Utils.exception2Bytes(Utils.java:125)
+	at com.bokesoft.myerp.common.midproxy.RequestImpl.setErr(RequestImpl.java:208)
+	at com.bokesoft.myerp.common.midproxy.Request.setErr(Request.java:186)
+	at vS.doAction(Unknown Source)
+	at com.bokesoft.myerp.mid.proxy.core.MidSrvCore.a(Unknown Source)
+	at com.bokesoft.myerp.mid.proxy.core.MidSrvCore.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:565)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1360)
+	at com.bokesoft.myerp.mid.web.util.WebFilter.doFilter(WebFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1331)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:477)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1031)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:965)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:449)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:925)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:857)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:701)
+2014-10-27 08:39:07 INFO - 17723 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-27 08:39:07 INFO - 17725 [main] >> server started
+2014-10-27 08:40:19 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-27 08:40:29 WARN - 10139 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-27 08:40:29 WARN - 10141 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-27 08:40:29 WARN - 10164 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-27 08:40:29 WARN - 10176 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-27 08:40:29 WARN - 10180 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-27 08:40:29 WARN - 10222 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-27 08:40:29 INFO - 10290 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-27 08:40:29 INFO - 10325 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-27 08:40:29 INFO - 10336 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-27 08:40:29 INFO - 10340 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-27 08:40:29 INFO - 10361 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-27 08:40:29 WARN - 10371 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-27 08:40:29 INFO - 10373 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-27 08:40:29 INFO - 10719 [main] start update weixinpublicnumber uname:123456
+2014-10-27 08:40:29 INFO - 10769 [main] Key@keywordsReplyMessage value :待办
+2014-10-27 08:40:29 INFO - 10780 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-27 08:40:29 INFO - 10782 [main] end update weixinpublicnumber
+2014-10-27 08:40:29 INFO - 10808 [main] start update weixinpublicnumber uname:53826
+2014-10-27 08:40:30 INFO - 10895 [main] start update weixinpublicnumber uname:tacter
+2014-10-27 08:40:30 INFO - 10896 [main] Key@keywordsReplyMessage value :留言
+2014-10-27 08:40:30 INFO - 10898 [main] Key@keywordsReplyMessage value :10
+2014-10-27 08:40:30 INFO - 10908 [main] Key@keywordsReplyMessage value :公告
+2014-10-27 08:40:30 INFO - 10910 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-27 08:40:30 INFO - 10912 [main] Key@keywordsReplyMessage value :新功能
+2014-10-27 08:40:30 INFO - 10930 [main] Key@keywordsReplyMessage value :图文
+2014-10-27 08:40:30 INFO - 10931 [main] Key@keywordsReplyMessage value :签收
+2014-10-27 08:40:30 INFO - 10934 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-27 08:40:30 INFO - 10936 [main] Key@editKeywordsReplyMessage value :10
+2014-10-27 08:40:30 INFO - 10937 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-27 08:40:30 INFO - 10938 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-27 08:40:30 INFO - 10940 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-27 08:40:30 INFO - 10941 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-27 08:40:30 INFO - 10943 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-27 08:40:30 INFO - 10944 [main] end update weixinpublicnumber
+2014-10-27 08:40:30 WARN - 10946 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-27 08:40:30 INFO - 11123 [main] Using default implementation for ThreadExecutor
+2014-10-27 08:40:30 INFO - 11138 [main] Job execution threads will use class loader of thread: main
+2014-10-27 08:40:30 INFO - 11223 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-27 08:40:30 INFO - 11226 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-27 08:40:30 INFO - 11230 [main] RAMJobStore initialized.
+2014-10-27 08:40:30 INFO - 11234 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-27 08:40:30 INFO - 11238 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-27 08:40:30 INFO - 11240 [main] Quartz scheduler version: 2.2.1
+2014-10-27 08:40:30 INFO - 11322 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-27 08:40:30 WARN - 11325 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-27 08:40:30 WARN - 11352 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-27 08:40:30 WARN - 11354 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-27 08:40:30 WARN - 11367 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-27 08:40:30 INFO - 11398 [main] yigo Weixin application context load complete.
+2014-10-27 08:40:30 INFO - 11585 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-27 08:40:30 INFO - 11586 [main] >> server started
+2014-10-27 13:42:44 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-27 13:42:50 WARN - 5912 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-27 13:42:50 WARN - 5914 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-27 13:42:50 WARN - 5942 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-27 13:42:50 WARN - 5983 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-27 13:42:50 WARN - 5988 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-27 13:42:50 WARN - 6084 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-27 13:42:51 INFO - 6305 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-27 13:42:51 INFO - 6325 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-27 13:42:51 INFO - 6333 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-27 13:42:51 INFO - 6337 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-27 13:42:51 INFO - 6425 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-27 13:42:51 WARN - 6432 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-27 13:42:51 INFO - 6433 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-27 13:42:51 INFO - 6737 [main] start update weixinpublicnumber uname:123456
+2014-10-27 13:42:51 INFO - 6797 [main] Key@keywordsReplyMessage value :待办
+2014-10-27 13:42:51 INFO - 6800 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-27 13:42:51 INFO - 6859 [main] end update weixinpublicnumber
+2014-10-27 13:42:51 INFO - 6887 [main] start update weixinpublicnumber uname:53826
+2014-10-27 13:42:51 INFO - 6962 [main] start update weixinpublicnumber uname:tacter
+2014-10-27 13:42:51 INFO - 6964 [main] Key@keywordsReplyMessage value :留言
+2014-10-27 13:42:51 INFO - 6965 [main] Key@keywordsReplyMessage value :10
+2014-10-27 13:42:51 INFO - 6968 [main] Key@keywordsReplyMessage value :公告
+2014-10-27 13:42:51 INFO - 6989 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-27 13:42:51 INFO - 6991 [main] Key@keywordsReplyMessage value :新功能
+2014-10-27 13:42:51 INFO - 7017 [main] Key@keywordsReplyMessage value :图文
+2014-10-27 13:42:51 INFO - 7019 [main] Key@keywordsReplyMessage value :签收
+2014-10-27 13:42:51 INFO - 7020 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-27 13:42:51 INFO - 7020 [main] Key@editKeywordsReplyMessage value :10
+2014-10-27 13:42:51 INFO - 7021 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-27 13:42:51 INFO - 7022 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-27 13:42:51 INFO - 7023 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-27 13:42:51 INFO - 7024 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-27 13:42:51 INFO - 7025 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-27 13:42:51 INFO - 7027 [main] end update weixinpublicnumber
+2014-10-27 13:42:51 WARN - 7030 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-27 13:42:51 INFO - 7140 [main] Using default implementation for ThreadExecutor
+2014-10-27 13:42:51 INFO - 7176 [main] Job execution threads will use class loader of thread: main
+2014-10-27 13:42:52 INFO - 7256 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-27 13:42:52 INFO - 7258 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-27 13:42:52 INFO - 7281 [main] RAMJobStore initialized.
+2014-10-27 13:42:52 INFO - 7287 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-27 13:42:52 INFO - 7289 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-27 13:42:52 INFO - 7290 [main] Quartz scheduler version: 2.2.1
+2014-10-27 13:42:52 INFO - 7317 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-27 13:42:52 WARN - 7338 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-27 13:42:52 WARN - 7389 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-27 13:42:52 WARN - 7414 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-27 13:42:52 WARN - 7418 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-27 13:42:52 INFO - 7473 [main] yigo Weixin application context load complete.
+2014-10-27 13:42:52 INFO - 7821 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-27 13:42:52 INFO - 7822 [main] >> server started
+2014-10-27 13:57:00 INFO - 855525 [qtp25218858-34] receivedWeixinLocationEventMessage{"createTime":1414389394,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223471","longitude":"121.389084","msgType":"event","precision":"66.372452","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 13:57:00 INFO - 855549 [qtp25218858-34] handleWeixinRemoteLocationEventMessage:{"createTime":1414389420275,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223471","longitude":"121.389084","msgType":"remote_locationevent","password":"","precision":"66.372452","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 13:57:02 INFO - 858094 [qtp25218858-34] request message:{"createTime":1414389394,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223471","longitude":"121.389084","msgType":"event","precision":"66.372452","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 13:57:02 INFO - 858107 [qtp25218858-34] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 13:57:42 INFO - 897718 [qtp25218858-34] receivedWeixinLocationEventMessage{"createTime":1414389460,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223507","longitude":"121.389229","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 13:57:42 INFO - 897719 [qtp25218858-34] handleWeixinRemoteLocationEventMessage:{"createTime":1414389462468,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223507","longitude":"121.389229","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 13:57:42 INFO - 897790 [qtp25218858-34] request message:{"createTime":1414389460,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223507","longitude":"121.389229","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 13:57:42 INFO - 897792 [qtp25218858-34] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 13:58:25 WARN - 941115 [qtp25218858-34] Ignoring extra content 
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>YIGO微信服务管理平台首页</title>
+		<link href="css/style.css" rel="stylesheet"/>
+		<style type="text/css">
+			.zclip{
+				margin-top: -8px;
+			}
+		</style>
+	</head>
+	<body>
+	    
+
+
+
+
+2014-10-27 13:58:31 INFO - 946492 [qtp25218858-34] user logined:tacter
+2014-10-27 13:59:23 INFO - 998831 [qtp25218858-37] receivedWeixinLocationEventMessage{"createTime":1414389555,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223452","longitude":"121.389236","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 13:59:23 INFO - 998836 [qtp25218858-37] handleWeixinRemoteLocationEventMessage:{"createTime":1414389563585,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223452","longitude":"121.389236","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 13:59:26 ERROR - 1001848 [qtp25218858-37] java.net.SocketTimeoutException: Read timed out
+2014-10-27 13:59:26 INFO - 1001870 [qtp25218858-37] request message:{"createTime":1414389555,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223452","longitude":"121.389236","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 13:59:26 INFO - 1001871 [qtp25218858-37] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 14:11:19 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-27 14:11:19 WARN - 666 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-27 14:11:19 WARN - 670 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-27 14:11:19 WARN - 673 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-27 14:11:19 WARN - 676 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-27 14:11:19 WARN - 679 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-27 14:11:19 WARN - 688 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-27 14:11:19 INFO - 700 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-27 14:11:19 INFO - 706 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-27 14:11:19 INFO - 709 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-27 14:11:19 INFO - 710 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-27 14:11:19 INFO - 713 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-27 14:11:19 WARN - 715 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-27 14:11:19 INFO - 716 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-27 14:11:19 INFO - 811 [main] start update weixinpublicnumber uname:123456
+2014-10-27 14:11:19 INFO - 838 [main] Key@keywordsReplyMessage value :待办
+2014-10-27 14:11:19 INFO - 842 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-27 14:11:19 INFO - 846 [main] end update weixinpublicnumber
+2014-10-27 14:11:19 INFO - 864 [main] start update weixinpublicnumber uname:53826
+2014-10-27 14:11:19 INFO - 889 [main] start update weixinpublicnumber uname:tacter
+2014-10-27 14:11:19 INFO - 890 [main] Key@keywordsReplyMessage value :留言
+2014-10-27 14:11:20 INFO - 893 [main] Key@keywordsReplyMessage value :10
+2014-10-27 14:11:20 INFO - 894 [main] Key@keywordsReplyMessage value :公告
+2014-10-27 14:11:20 INFO - 896 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-27 14:11:20 INFO - 897 [main] Key@keywordsReplyMessage value :新功能
+2014-10-27 14:11:20 INFO - 899 [main] Key@keywordsReplyMessage value :图文
+2014-10-27 14:11:20 INFO - 900 [main] Key@keywordsReplyMessage value :签收
+2014-10-27 14:11:20 INFO - 920 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-27 14:11:20 INFO - 923 [main] Key@editKeywordsReplyMessage value :10
+2014-10-27 14:11:20 INFO - 924 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-27 14:11:20 INFO - 925 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-27 14:11:20 INFO - 926 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-27 14:11:20 INFO - 927 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-27 14:11:20 INFO - 928 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-27 14:11:20 INFO - 929 [main] end update weixinpublicnumber
+2014-10-27 14:11:20 WARN - 931 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-27 14:11:20 INFO - 998 [main] Using default implementation for ThreadExecutor
+2014-10-27 14:11:20 INFO - 1008 [main] Job execution threads will use class loader of thread: main
+2014-10-27 14:11:20 INFO - 1056 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-27 14:11:20 INFO - 1058 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-27 14:11:20 INFO - 1062 [main] RAMJobStore initialized.
+2014-10-27 14:11:20 INFO - 1073 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-27 14:11:20 INFO - 1074 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-27 14:11:20 INFO - 1075 [main] Quartz scheduler version: 2.2.1
+2014-10-27 14:11:20 INFO - 1101 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-27 14:11:20 WARN - 1103 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-27 14:11:20 WARN - 1105 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-27 14:11:20 WARN - 1106 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-27 14:11:20 WARN - 1110 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-27 14:11:20 INFO - 1112 [main] yigo Weixin application context load complete.
+2014-10-27 14:11:20 INFO - 1243 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-27 14:11:20 INFO - 1244 [main] >> server started
+2014-10-27 14:11:35 INFO - 16845 [qtp9102426-33] receivedWeixinLocationEventMessage{"createTime":1414390294,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223486","longitude":"121.389153","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:11:35 INFO - 16876 [qtp9102426-33] handleWeixinRemoteLocationEventMessage:{"createTime":1414390295954,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223486","longitude":"121.389153","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 14:11:39 ERROR - 20032 [qtp9102426-33] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:11:39 INFO - 20034 [qtp9102426-33] request message:{"createTime":1414390294,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223486","longitude":"121.389153","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:11:39 INFO - 20047 [qtp9102426-33] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 14:17:03 INFO - 344717 [qtp9102426-31] receivedWeixinLocationEventMessage{"createTime":1414390621,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223583","longitude":"121.388786","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:17:03 INFO - 344719 [qtp9102426-31] handleWeixinRemoteLocationEventMessage:{"createTime":1414390623827,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223583","longitude":"121.388786","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 14:17:05 INFO - 346834 [qtp9102426-31] request message:{"createTime":1414390621,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223583","longitude":"121.388786","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:17:05 INFO - 346835 [qtp9102426-31] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 14:27:02 INFO - 943834 [qtp9102426-36] receivedWeixinLocationEventMessage{"createTime":1414391225,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223591","longitude":"121.388779","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:27:02 INFO - 943836 [qtp9102426-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414391222944,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223591","longitude":"121.388779","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 14:27:05 ERROR - 946843 [qtp9102426-36] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:27:05 INFO - 946844 [qtp9102426-36] request message:{"createTime":1414391225,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223591","longitude":"121.388779","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:27:05 INFO - 946845 [qtp9102426-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 14:29:36 INFO - 1097184 [qtp9102426-36] receivedWeixinLocationEventMessage{"createTime":1414391378,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223581","longitude":"121.388763","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:29:36 INFO - 1097185 [qtp9102426-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414391376293,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223581","longitude":"121.388763","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 14:29:39 ERROR - 1100191 [qtp9102426-36] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:29:39 INFO - 1100192 [qtp9102426-36] request message:{"createTime":1414391378,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223581","longitude":"121.388763","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:29:39 INFO - 1100193 [qtp9102426-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 14:34:58 INFO - 1419349 [qtp9102426-38] receivedWeixinLocationEventMessage{"createTime":1414391700,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223600","longitude":"121.388763","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:34:58 INFO - 1419350 [qtp9102426-38] handleWeixinRemoteLocationEventMessage:{"createTime":1414391698458,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223600","longitude":"121.388763","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 14:35:01 ERROR - 1422357 [qtp9102426-38] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:35:01 INFO - 1422358 [qtp9102426-38] request message:{"createTime":1414391700,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223600","longitude":"121.388763","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:35:01 INFO - 1422359 [qtp9102426-38] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 14:39:06 INFO - 1667293 [qtp9102426-33] receivedWeixinLocationEventMessage{"createTime":1414391948,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223602","longitude":"121.388763","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:39:06 INFO - 1667294 [qtp9102426-33] handleWeixinRemoteLocationEventMessage:{"createTime":1414391946402,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223602","longitude":"121.388763","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-27 14:39:09 ERROR - 1670300 [qtp9102426-33] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:39:09 INFO - 1670301 [qtp9102426-33] request message:{"createTime":1414391948,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223602","longitude":"121.388763","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-27 14:39:09 INFO - 1670302 [qtp9102426-33] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-27 16:08:37 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-27 16:08:40 WARN - 2580 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-27 16:08:40 WARN - 2581 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-27 16:08:40 WARN - 2605 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-27 16:08:40 WARN - 2617 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-27 16:08:40 WARN - 2621 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-27 16:08:40 WARN - 2659 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-27 16:08:40 INFO - 2845 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-27 16:08:40 INFO - 2870 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-27 16:08:40 INFO - 2878 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-27 16:08:40 INFO - 2883 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-27 16:08:40 INFO - 2894 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-27 16:08:40 WARN - 2898 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-27 16:08:40 INFO - 2899 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-27 16:08:40 INFO - 3126 [main] start update weixinpublicnumber uname:123456
+2014-10-27 16:08:40 INFO - 3177 [main] Key@keywordsReplyMessage value :待办
+2014-10-27 16:08:40 INFO - 3187 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-27 16:08:40 INFO - 3230 [main] end update weixinpublicnumber
+2014-10-27 16:08:40 INFO - 3277 [main] start update weixinpublicnumber uname:53826
+2014-10-27 16:08:40 INFO - 3329 [main] start update weixinpublicnumber uname:tacter
+2014-10-27 16:08:40 INFO - 3330 [main] Key@keywordsReplyMessage value :留言
+2014-10-27 16:08:40 INFO - 3332 [main] Key@keywordsReplyMessage value :10
+2014-10-27 16:08:40 INFO - 3333 [main] Key@keywordsReplyMessage value :公告
+2014-10-27 16:08:41 INFO - 3337 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-27 16:08:41 INFO - 3338 [main] Key@keywordsReplyMessage value :新功能
+2014-10-27 16:08:41 INFO - 3344 [main] Key@keywordsReplyMessage value :图文
+2014-10-27 16:08:41 INFO - 3348 [main] Key@keywordsReplyMessage value :签收
+2014-10-27 16:08:41 INFO - 3349 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-27 16:08:41 INFO - 3349 [main] Key@editKeywordsReplyMessage value :10
+2014-10-27 16:08:41 INFO - 3351 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-27 16:08:41 INFO - 3352 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-27 16:08:41 INFO - 3353 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-27 16:08:41 INFO - 3354 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-27 16:08:41 INFO - 3355 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-27 16:08:41 INFO - 3355 [main] end update weixinpublicnumber
+2014-10-27 16:08:41 WARN - 3360 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-27 16:08:41 INFO - 3465 [main] Using default implementation for ThreadExecutor
+2014-10-27 16:08:41 INFO - 3483 [main] Job execution threads will use class loader of thread: main
+2014-10-27 16:08:41 INFO - 3538 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-27 16:08:41 INFO - 3541 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-27 16:08:41 INFO - 3544 [main] RAMJobStore initialized.
+2014-10-27 16:08:41 INFO - 3547 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-27 16:08:41 INFO - 3549 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-27 16:08:41 INFO - 3552 [main] Quartz scheduler version: 2.2.1
+2014-10-27 16:08:41 INFO - 3587 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-27 16:08:41 WARN - 3598 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-27 16:08:41 WARN - 3649 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-27 16:08:41 WARN - 3672 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-27 16:08:41 WARN - 3679 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-27 16:08:41 INFO - 3728 [main] yigo Weixin application context load complete.
+2014-10-27 16:08:41 INFO - 3973 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-27 16:08:41 INFO - 3975 [main] >> server started

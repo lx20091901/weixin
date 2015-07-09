@@ -1,0 +1,547 @@
+2014-10-15 16:57:18 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-15 16:57:19 WARN - 1037 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-15 16:57:19 WARN - 1039 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-15 16:57:19 WARN - 1042 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-15 16:57:19 WARN - 1044 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-15 16:57:19 WARN - 1046 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-15 16:57:19 WARN - 1052 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-15 16:57:19 INFO - 1172 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-15 16:57:19 INFO - 1204 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-15 16:57:19 INFO - 1207 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-15 16:57:19 INFO - 1210 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-15 16:57:19 INFO - 1213 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-15 16:57:19 WARN - 1221 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-15 16:57:19 INFO - 1222 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-15 16:57:19 INFO - 1327 [main] start update weixinpublicnumber uname:123456
+2014-10-15 16:57:19 INFO - 1349 [main] Key@keywordsReplyMessage value :待办
+2014-10-15 16:57:19 INFO - 1352 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-15 16:57:19 INFO - 1387 [main] end update weixinpublicnumber
+2014-10-15 16:57:19 INFO - 1394 [main] start update weixinpublicnumber uname:53826
+2014-10-15 16:57:19 INFO - 1431 [main] start update weixinpublicnumber uname:tacter
+2014-10-15 16:57:19 INFO - 1432 [main] Key@keywordsReplyMessage value :行业案例
+2014-10-15 16:57:19 INFO - 1433 [main] Key@keywordsReplyMessage value :私人定制
+2014-10-15 16:57:19 INFO - 1462 [main] Key@keywordsReplyMessage value :社员认证
+2014-10-15 16:57:19 INFO - 1463 [main] Key@keywordsReplyMessage value :企业文化
+2014-10-15 16:57:19 INFO - 1465 [main] Key@keywordsReplyMessage value :加入社员
+2014-10-15 16:57:19 INFO - 1466 [main] Key@keywordsReplyMessage value :活动私享
+2014-10-15 16:57:19 INFO - 1467 [main] Key@keywordsReplyMessage value :行业数据
+2014-10-15 16:57:19 INFO - 1467 [main] Key@keywordsReplyMessage value :业务咨询留言
+2014-10-15 16:57:19 INFO - 1468 [main] Key@keywordsReplyMessage value :联系我们
+2014-10-15 16:57:19 INFO - 1472 [main] Key@keywordsReplyMessage value :微信账号绑定
+2014-10-15 16:57:19 INFO - 1473 [main] Key@keywordsReplyMessage value :业务咨询
+2014-10-15 16:57:19 INFO - 1473 [main] Key@keywordsReplyMessage value :公社介绍
+2014-10-15 16:57:19 INFO - 1474 [main] Key@keywordsReplyMessage value :活动报名
+2014-10-15 16:57:19 INFO - 1475 [main] Key@keywordsReplyMessage value :行业政策
+2014-10-15 16:57:19 INFO - 1493 [main] Key@keywordsReplyMessage value :行业资讯
+2014-10-15 16:57:19 INFO - 1494 [main] Key@editKeywordsReplyMessage value :行业案例
+2014-10-15 16:57:19 INFO - 1495 [main] Key@editKeywordsReplyMessage value :私人定制
+2014-10-15 16:57:19 INFO - 1496 [main] Key@editKeywordsReplyMessage value :社员认证
+2014-10-15 16:57:19 INFO - 1497 [main] Key@editKeywordsReplyMessage value :企业文化
+2014-10-15 16:57:19 INFO - 1498 [main] Key@editKeywordsReplyMessage value :加入社员
+2014-10-15 16:57:19 INFO - 1499 [main] Key@editKeywordsReplyMessage value :活动私享
+2014-10-15 16:57:19 INFO - 1500 [main] Key@editKeywordsReplyMessage value :行业数据
+2014-10-15 16:57:19 INFO - 1501 [main] Key@editKeywordsReplyMessage value :业务咨询留言
+2014-10-15 16:57:19 INFO - 1501 [main] Key@editKeywordsReplyMessage value :联系我们
+2014-10-15 16:57:19 INFO - 1502 [main] Key@editKeywordsReplyMessage value :微信账号绑定
+2014-10-15 16:57:19 INFO - 1503 [main] Key@editKeywordsReplyMessage value :业务咨询
+2014-10-15 16:57:19 INFO - 1504 [main] Key@editKeywordsReplyMessage value :公社介绍
+2014-10-15 16:57:19 INFO - 1505 [main] Key@editKeywordsReplyMessage value :活动报名
+2014-10-15 16:57:19 INFO - 1506 [main] Key@editKeywordsReplyMessage value :行业政策
+2014-10-15 16:57:19 INFO - 1507 [main] Key@editKeywordsReplyMessage value :行业资讯
+2014-10-15 16:57:19 INFO - 1508 [main] end update weixinpublicnumber
+2014-10-15 16:57:19 WARN - 1512 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-15 16:57:19 INFO - 1583 [main] Using default implementation for ThreadExecutor
+2014-10-15 16:57:19 INFO - 1592 [main] Job execution threads will use class loader of thread: main
+2014-10-15 16:57:19 INFO - 1630 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-15 16:57:19 INFO - 1632 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-15 16:57:19 INFO - 1635 [main] RAMJobStore initialized.
+2014-10-15 16:57:19 INFO - 1645 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-15 16:57:19 INFO - 1646 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-15 16:57:19 INFO - 1647 [main] Quartz scheduler version: 2.2.1
+2014-10-15 16:57:19 INFO - 1668 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-15 16:57:19 WARN - 1717 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-15 16:57:19 WARN - 1721 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-15 16:57:19 WARN - 1725 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-15 16:57:19 INFO - 1730 [main] yigo Weixin application context load complete.
+2014-10-15 16:57:20 INFO - 1853 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-15 16:57:20 INFO - 1854 [main] >> server started
+2014-10-15 16:59:56 INFO - 157872 [qtp2736644-32] manager logined:admin
+2014-10-15 17:00:34 INFO - 195981 [qtp2736644-36] user logined:123456
+2014-10-15 17:03:07 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-15 17:03:08 WARN - 1360 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-15 17:03:08 WARN - 1362 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-15 17:03:08 WARN - 1373 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-15 17:03:08 WARN - 1380 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-15 17:03:08 WARN - 1385 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-15 17:03:08 WARN - 1395 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-15 17:03:08 INFO - 1465 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-15 17:03:08 INFO - 1511 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-15 17:03:08 INFO - 1525 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-15 17:03:08 INFO - 1529 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-15 17:03:08 INFO - 1565 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-15 17:03:19 WARN - 11627 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-15 17:03:30 INFO - 23257 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-15 17:03:30 INFO - 23409 [main] start update weixinpublicnumber uname:123456
+2014-10-15 17:03:30 INFO - 23451 [main] Key@keywordsReplyMessage value :待办
+2014-10-15 17:03:30 INFO - 23454 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-15 17:03:30 INFO - 23464 [main] end update weixinpublicnumber
+2014-10-15 17:03:30 INFO - 23473 [main] start update weixinpublicnumber uname:53826
+2014-10-15 17:03:30 INFO - 23496 [main] start update weixinpublicnumber uname:tacter
+2014-10-15 17:03:30 INFO - 23497 [main] Key@keywordsReplyMessage value :行业案例
+2014-10-15 17:03:30 INFO - 23499 [main] Key@keywordsReplyMessage value :私人定制
+2014-10-15 17:03:30 INFO - 23503 [main] Key@keywordsReplyMessage value :社员认证
+2014-10-15 17:03:30 INFO - 23504 [main] Key@keywordsReplyMessage value :企业文化
+2014-10-15 17:03:30 INFO - 23505 [main] Key@keywordsReplyMessage value :加入社员
+2014-10-15 17:03:30 INFO - 23506 [main] Key@keywordsReplyMessage value :活动私享
+2014-10-15 17:03:30 INFO - 23506 [main] Key@keywordsReplyMessage value :行业数据
+2014-10-15 17:03:30 INFO - 23507 [main] Key@keywordsReplyMessage value :业务咨询留言
+2014-10-15 17:03:30 INFO - 23508 [main] Key@keywordsReplyMessage value :联系我们
+2014-10-15 17:03:30 INFO - 23509 [main] Key@keywordsReplyMessage value :微信账号绑定
+2014-10-15 17:03:30 INFO - 23510 [main] Key@keywordsReplyMessage value :业务咨询
+2014-10-15 17:03:30 INFO - 23511 [main] Key@keywordsReplyMessage value :公社介绍
+2014-10-15 17:03:30 INFO - 23512 [main] Key@keywordsReplyMessage value :活动报名
+2014-10-15 17:03:30 INFO - 23513 [main] Key@keywordsReplyMessage value :行业政策
+2014-10-15 17:03:30 INFO - 23520 [main] Key@keywordsReplyMessage value :行业资讯
+2014-10-15 17:03:30 INFO - 23521 [main] Key@editKeywordsReplyMessage value :行业案例
+2014-10-15 17:03:30 INFO - 23522 [main] Key@editKeywordsReplyMessage value :私人定制
+2014-10-15 17:03:30 INFO - 23523 [main] Key@editKeywordsReplyMessage value :社员认证
+2014-10-15 17:03:30 INFO - 23524 [main] Key@editKeywordsReplyMessage value :企业文化
+2014-10-15 17:03:30 INFO - 23525 [main] Key@editKeywordsReplyMessage value :加入社员
+2014-10-15 17:03:30 INFO - 23526 [main] Key@editKeywordsReplyMessage value :活动私享
+2014-10-15 17:03:30 INFO - 23527 [main] Key@editKeywordsReplyMessage value :行业数据
+2014-10-15 17:03:30 INFO - 23528 [main] Key@editKeywordsReplyMessage value :业务咨询留言
+2014-10-15 17:03:30 INFO - 23530 [main] Key@editKeywordsReplyMessage value :联系我们
+2014-10-15 17:03:30 INFO - 23531 [main] Key@editKeywordsReplyMessage value :微信账号绑定
+2014-10-15 17:03:30 INFO - 23532 [main] Key@editKeywordsReplyMessage value :业务咨询
+2014-10-15 17:03:30 INFO - 23533 [main] Key@editKeywordsReplyMessage value :公社介绍
+2014-10-15 17:03:30 INFO - 23534 [main] Key@editKeywordsReplyMessage value :活动报名
+2014-10-15 17:03:30 INFO - 23536 [main] Key@editKeywordsReplyMessage value :行业政策
+2014-10-15 17:03:30 INFO - 23537 [main] Key@editKeywordsReplyMessage value :行业资讯
+2014-10-15 17:03:30 INFO - 23538 [main] end update weixinpublicnumber
+2014-10-15 17:03:30 WARN - 23542 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-15 17:03:30 INFO - 23605 [main] Using default implementation for ThreadExecutor
+2014-10-15 17:03:31 INFO - 23616 [main] Job execution threads will use class loader of thread: main
+2014-10-15 17:03:31 INFO - 23660 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-15 17:03:31 INFO - 23664 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-15 17:03:31 INFO - 23677 [main] RAMJobStore initialized.
+2014-10-15 17:03:31 INFO - 23683 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-15 17:03:31 INFO - 23685 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-15 17:03:31 INFO - 23687 [main] Quartz scheduler version: 2.2.1
+2014-10-15 17:03:31 INFO - 23720 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-15 17:03:31 WARN - 23770 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-15 17:03:31 WARN - 23783 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-15 17:03:31 WARN - 23787 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-15 17:03:31 INFO - 23810 [main] yigo Weixin application context load complete.
+2014-10-15 17:03:31 INFO - 23948 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-15 17:03:31 INFO - 23949 [main] >> server started
+2014-10-15 17:03:54 WARN - 47506 [qtp2736644-34] Ignoring extra content 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>关键词回复管理</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+	
+
+
+
+
+2014-10-15 17:04:01 INFO - 53958 [qtp2736644-37] user logined:123456
+2014-10-15 17:05:14 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-15 17:05:15 WARN - 967 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-15 17:05:15 WARN - 969 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-15 17:05:15 WARN - 971 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-15 17:05:15 WARN - 974 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-15 17:05:15 WARN - 975 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-15 17:05:15 WARN - 979 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-15 17:05:15 INFO - 989 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-15 17:05:15 INFO - 995 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-15 17:05:15 INFO - 998 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-15 17:05:15 INFO - 1000 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-15 17:05:15 INFO - 1003 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-15 17:05:15 WARN - 1005 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-15 17:05:15 INFO - 1006 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-15 17:05:15 INFO - 1102 [main] start update weixinpublicnumber uname:123456
+2014-10-15 17:05:15 INFO - 1127 [main] Key@keywordsReplyMessage value :待办
+2014-10-15 17:05:15 INFO - 1130 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-15 17:05:15 INFO - 1137 [main] end update weixinpublicnumber
+2014-10-15 17:05:15 INFO - 1142 [main] start update weixinpublicnumber uname:53826
+2014-10-15 17:05:15 INFO - 1168 [main] start update weixinpublicnumber uname:tacter
+2014-10-15 17:05:15 INFO - 1171 [main] Key@keywordsReplyMessage value :行业案例
+2014-10-15 17:05:15 INFO - 1172 [main] Key@keywordsReplyMessage value :私人定制
+2014-10-15 17:05:15 INFO - 1176 [main] Key@keywordsReplyMessage value :社员认证
+2014-10-15 17:05:15 INFO - 1177 [main] Key@keywordsReplyMessage value :企业文化
+2014-10-15 17:05:15 INFO - 1178 [main] Key@keywordsReplyMessage value :加入社员
+2014-10-15 17:05:15 INFO - 1180 [main] Key@keywordsReplyMessage value :活动私享
+2014-10-15 17:05:15 INFO - 1181 [main] Key@keywordsReplyMessage value :行业数据
+2014-10-15 17:05:15 INFO - 1182 [main] Key@keywordsReplyMessage value :业务咨询留言
+2014-10-15 17:05:15 INFO - 1183 [main] Key@keywordsReplyMessage value :联系我们
+2014-10-15 17:05:15 INFO - 1185 [main] Key@keywordsReplyMessage value :微信账号绑定
+2014-10-15 17:05:15 INFO - 1186 [main] Key@keywordsReplyMessage value :业务咨询
+2014-10-15 17:05:15 INFO - 1187 [main] Key@keywordsReplyMessage value :公社介绍
+2014-10-15 17:05:15 INFO - 1188 [main] Key@keywordsReplyMessage value :活动报名
+2014-10-15 17:05:15 INFO - 1189 [main] Key@keywordsReplyMessage value :行业政策
+2014-10-15 17:05:15 INFO - 1191 [main] Key@keywordsReplyMessage value :行业资讯
+2014-10-15 17:05:15 INFO - 1192 [main] Key@editKeywordsReplyMessage value :行业案例
+2014-10-15 17:05:15 INFO - 1193 [main] Key@editKeywordsReplyMessage value :私人定制
+2014-10-15 17:05:15 INFO - 1194 [main] Key@editKeywordsReplyMessage value :社员认证
+2014-10-15 17:05:15 INFO - 1195 [main] Key@editKeywordsReplyMessage value :企业文化
+2014-10-15 17:05:15 INFO - 1196 [main] Key@editKeywordsReplyMessage value :加入社员
+2014-10-15 17:05:15 INFO - 1197 [main] Key@editKeywordsReplyMessage value :活动私享
+2014-10-15 17:05:15 INFO - 1197 [main] Key@editKeywordsReplyMessage value :行业数据
+2014-10-15 17:05:15 INFO - 1198 [main] Key@editKeywordsReplyMessage value :业务咨询留言
+2014-10-15 17:05:15 INFO - 1199 [main] Key@editKeywordsReplyMessage value :联系我们
+2014-10-15 17:05:15 INFO - 1200 [main] Key@editKeywordsReplyMessage value :微信账号绑定
+2014-10-15 17:05:15 INFO - 1201 [main] Key@editKeywordsReplyMessage value :业务咨询
+2014-10-15 17:05:15 INFO - 1202 [main] Key@editKeywordsReplyMessage value :公社介绍
+2014-10-15 17:05:15 INFO - 1203 [main] Key@editKeywordsReplyMessage value :活动报名
+2014-10-15 17:05:15 INFO - 1204 [main] Key@editKeywordsReplyMessage value :行业政策
+2014-10-15 17:05:15 INFO - 1204 [main] Key@editKeywordsReplyMessage value :行业资讯
+2014-10-15 17:05:15 INFO - 1205 [main] end update weixinpublicnumber
+2014-10-15 17:05:15 WARN - 1207 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-15 17:05:15 INFO - 1265 [main] Using default implementation for ThreadExecutor
+2014-10-15 17:05:15 INFO - 1279 [main] Job execution threads will use class loader of thread: main
+2014-10-15 17:05:15 INFO - 1321 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-15 17:05:15 INFO - 1323 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-15 17:05:15 INFO - 1338 [main] RAMJobStore initialized.
+2014-10-15 17:05:15 INFO - 1345 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-15 17:05:15 INFO - 1346 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-15 17:05:15 INFO - 1348 [main] Quartz scheduler version: 2.2.1
+2014-10-15 17:05:15 INFO - 1370 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-15 17:05:15 ERROR - 1443 [%0043%0041%0043%0048%0045_%0057%0045%0049%0058%0049%004e_%0050%0055%0042%004c%0049%0043%004e%0055%004d%0042%0045%0052_%0053%0043%004f%0050%0045.data] Disk Write of tacter failed: 
+java.io.NotSerializableException: com.bokesoft.thirdparty.weixin.bean.message.Article
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.ArrayList.writeObject(ArrayList.java:570)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:416)
+	at net.sf.ehcache.Element.writeObject(Element.java:835)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:405)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:384)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:485)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1088)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1072)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:207)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-10-15 17:06:44 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-15 17:06:45 WARN - 993 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-15 17:06:45 WARN - 994 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-15 17:06:45 WARN - 997 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-15 17:06:45 WARN - 999 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-15 17:06:45 WARN - 1001 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-15 17:06:45 WARN - 1004 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-15 17:06:45 INFO - 1015 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-15 17:06:46 INFO - 1022 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-15 17:06:46 INFO - 1025 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-15 17:06:46 INFO - 1026 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-15 17:06:46 INFO - 1029 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-15 17:06:46 WARN - 1031 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-15 17:06:46 INFO - 1032 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-15 17:06:46 INFO - 1136 [main] start update weixinpublicnumber uname:123456
+2014-10-15 17:06:46 INFO - 1170 [main] Key@keywordsReplyMessage value :待办
+2014-10-15 17:06:46 INFO - 1174 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-15 17:06:46 INFO - 1175 [main] end update weixinpublicnumber
+2014-10-15 17:06:46 INFO - 1183 [main] start update weixinpublicnumber uname:53826
+2014-10-15 17:06:46 INFO - 1204 [main] start update weixinpublicnumber uname:tacter
+2014-10-15 17:06:46 INFO - 1206 [main] Key@keywordsReplyMessage value :行业案例
+2014-10-15 17:06:46 INFO - 1208 [main] Key@keywordsReplyMessage value :私人定制
+2014-10-15 17:06:46 INFO - 1211 [main] Key@keywordsReplyMessage value :社员认证
+2014-10-15 17:06:46 INFO - 1212 [main] Key@keywordsReplyMessage value :企业文化
+2014-10-15 17:06:46 INFO - 1213 [main] Key@keywordsReplyMessage value :加入社员
+2014-10-15 17:06:46 INFO - 1214 [main] Key@keywordsReplyMessage value :活动私享
+2014-10-15 17:06:46 INFO - 1214 [main] Key@keywordsReplyMessage value :行业数据
+2014-10-15 17:06:46 INFO - 1215 [main] Key@keywordsReplyMessage value :业务咨询留言
+2014-10-15 17:06:46 INFO - 1216 [main] Key@keywordsReplyMessage value :联系我们
+2014-10-15 17:06:46 INFO - 1217 [main] Key@keywordsReplyMessage value :微信账号绑定
+2014-10-15 17:06:46 INFO - 1218 [main] Key@keywordsReplyMessage value :业务咨询
+2014-10-15 17:06:46 INFO - 1220 [main] Key@keywordsReplyMessage value :公社介绍
+2014-10-15 17:06:46 INFO - 1221 [main] Key@keywordsReplyMessage value :活动报名
+2014-10-15 17:06:46 INFO - 1222 [main] Key@keywordsReplyMessage value :行业政策
+2014-10-15 17:06:46 INFO - 1226 [main] Key@keywordsReplyMessage value :行业资讯
+2014-10-15 17:06:46 INFO - 1227 [main] Key@editKeywordsReplyMessage value :行业案例
+2014-10-15 17:06:46 INFO - 1228 [main] Key@editKeywordsReplyMessage value :私人定制
+2014-10-15 17:06:46 INFO - 1229 [main] Key@editKeywordsReplyMessage value :社员认证
+2014-10-15 17:06:46 INFO - 1230 [main] Key@editKeywordsReplyMessage value :企业文化
+2014-10-15 17:06:46 INFO - 1231 [main] Key@editKeywordsReplyMessage value :加入社员
+2014-10-15 17:06:46 INFO - 1232 [main] Key@editKeywordsReplyMessage value :活动私享
+2014-10-15 17:06:46 INFO - 1233 [main] Key@editKeywordsReplyMessage value :行业数据
+2014-10-15 17:06:46 INFO - 1234 [main] Key@editKeywordsReplyMessage value :业务咨询留言
+2014-10-15 17:06:46 INFO - 1235 [main] Key@editKeywordsReplyMessage value :联系我们
+2014-10-15 17:06:46 INFO - 1236 [main] Key@editKeywordsReplyMessage value :微信账号绑定
+2014-10-15 17:06:46 INFO - 1237 [main] Key@editKeywordsReplyMessage value :业务咨询
+2014-10-15 17:06:46 INFO - 1238 [main] Key@editKeywordsReplyMessage value :公社介绍
+2014-10-15 17:06:46 INFO - 1239 [main] Key@editKeywordsReplyMessage value :活动报名
+2014-10-15 17:06:46 INFO - 1240 [main] Key@editKeywordsReplyMessage value :行业政策
+2014-10-15 17:06:46 INFO - 1242 [main] Key@editKeywordsReplyMessage value :行业资讯
+2014-10-15 17:06:46 INFO - 1243 [main] end update weixinpublicnumber
+2014-10-15 17:06:46 WARN - 1245 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-15 17:06:46 INFO - 1302 [main] Using default implementation for ThreadExecutor
+2014-10-15 17:06:46 INFO - 1315 [main] Job execution threads will use class loader of thread: main
+2014-10-15 17:06:46 INFO - 1369 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-15 17:06:46 INFO - 1371 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-15 17:06:46 INFO - 1379 [main] RAMJobStore initialized.
+2014-10-15 17:06:46 INFO - 1384 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-15 17:06:46 INFO - 1385 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-15 17:06:46 INFO - 1387 [main] Quartz scheduler version: 2.2.1
+2014-10-15 17:06:46 INFO - 1424 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-15 17:06:46 WARN - 1459 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-15 17:06:46 WARN - 1460 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-15 17:06:46 WARN - 1462 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-15 17:06:46 WARN - 1463 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-15 17:06:46 INFO - 1465 [main] yigo Weixin application context load complete.
+2014-10-15 17:06:46 INFO - 1597 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-15 17:06:46 INFO - 1598 [main] >> server started
+2014-10-15 17:06:56 WARN - 11161 [qtp9102426-32] Ignoring extra content 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>关键词回复管理</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+	
+
+
+
+
+2014-10-15 17:07:03 INFO - 18345 [qtp9102426-36] user logined:123456
+2014-10-15 17:09:29 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-15 17:09:30 WARN - 863 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-15 17:09:30 WARN - 865 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-15 17:09:30 WARN - 868 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-15 17:09:30 WARN - 870 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-15 17:09:30 WARN - 872 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-15 17:09:30 WARN - 875 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-15 17:09:30 INFO - 885 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-15 17:09:30 INFO - 892 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-15 17:09:30 INFO - 895 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-15 17:09:30 INFO - 896 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-15 17:09:30 INFO - 899 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-15 17:09:30 WARN - 901 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-15 17:09:30 INFO - 903 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-15 17:09:30 INFO - 1002 [main] start update weixinpublicnumber uname:123456
+2014-10-15 17:09:30 INFO - 1031 [main] Key@keywordsReplyMessage value :待办
+2014-10-15 17:09:30 INFO - 1035 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-15 17:09:30 INFO - 1037 [main] end update weixinpublicnumber
+2014-10-15 17:09:30 INFO - 1042 [main] start update weixinpublicnumber uname:53826
+2014-10-15 17:09:30 INFO - 1069 [main] start update weixinpublicnumber uname:tacter
+2014-10-15 17:09:30 INFO - 1070 [main] Key@keywordsReplyMessage value :行业案例
+2014-10-15 17:09:30 INFO - 1075 [main] Key@keywordsReplyMessage value :私人定制
+2014-10-15 17:09:30 INFO - 1076 [main] Key@keywordsReplyMessage value :社员认证
+2014-10-15 17:09:30 INFO - 1078 [main] Key@keywordsReplyMessage value :企业文化
+2014-10-15 17:09:30 INFO - 1079 [main] Key@keywordsReplyMessage value :加入社员
+2014-10-15 17:09:30 INFO - 1080 [main] Key@keywordsReplyMessage value :活动私享
+2014-10-15 17:09:30 INFO - 1082 [main] Key@keywordsReplyMessage value :行业数据
+2014-10-15 17:09:30 INFO - 1083 [main] Key@keywordsReplyMessage value :业务咨询留言
+2014-10-15 17:09:30 INFO - 1084 [main] Key@keywordsReplyMessage value :联系我们
+2014-10-15 17:09:30 INFO - 1085 [main] Key@keywordsReplyMessage value :微信账号绑定
+2014-10-15 17:09:30 INFO - 1085 [main] Key@keywordsReplyMessage value :业务咨询
+2014-10-15 17:09:30 INFO - 1086 [main] Key@keywordsReplyMessage value :公社介绍
+2014-10-15 17:09:30 INFO - 1090 [main] Key@keywordsReplyMessage value :活动报名
+2014-10-15 17:09:30 INFO - 1091 [main] Key@keywordsReplyMessage value :行业政策
+2014-10-15 17:09:30 INFO - 1095 [main] Key@keywordsReplyMessage value :行业资讯
+2014-10-15 17:09:30 INFO - 1096 [main] Key@editKeywordsReplyMessage value :行业案例
+2014-10-15 17:09:30 INFO - 1097 [main] Key@editKeywordsReplyMessage value :私人定制
+2014-10-15 17:09:30 INFO - 1098 [main] Key@editKeywordsReplyMessage value :社员认证
+2014-10-15 17:09:30 INFO - 1099 [main] Key@editKeywordsReplyMessage value :企业文化
+2014-10-15 17:09:30 INFO - 1100 [main] Key@editKeywordsReplyMessage value :加入社员
+2014-10-15 17:09:30 INFO - 1101 [main] Key@editKeywordsReplyMessage value :活动私享
+2014-10-15 17:09:30 INFO - 1102 [main] Key@editKeywordsReplyMessage value :行业数据
+2014-10-15 17:09:30 INFO - 1103 [main] Key@editKeywordsReplyMessage value :业务咨询留言
+2014-10-15 17:09:30 INFO - 1105 [main] Key@editKeywordsReplyMessage value :联系我们
+2014-10-15 17:09:30 INFO - 1106 [main] Key@editKeywordsReplyMessage value :微信账号绑定
+2014-10-15 17:09:30 INFO - 1107 [main] Key@editKeywordsReplyMessage value :业务咨询
+2014-10-15 17:09:30 INFO - 1108 [main] Key@editKeywordsReplyMessage value :公社介绍
+2014-10-15 17:09:30 INFO - 1109 [main] Key@editKeywordsReplyMessage value :活动报名
+2014-10-15 17:09:30 INFO - 1110 [main] Key@editKeywordsReplyMessage value :行业政策
+2014-10-15 17:09:30 INFO - 1111 [main] Key@editKeywordsReplyMessage value :行业资讯
+2014-10-15 17:09:30 INFO - 1112 [main] end update weixinpublicnumber
+2014-10-15 17:09:30 WARN - 1114 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-15 17:09:30 INFO - 1174 [main] Using default implementation for ThreadExecutor
+2014-10-15 17:09:30 INFO - 1188 [main] Job execution threads will use class loader of thread: main
+2014-10-15 17:09:30 INFO - 1252 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-15 17:09:30 INFO - 1254 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-15 17:09:30 INFO - 1263 [main] RAMJobStore initialized.
+2014-10-15 17:09:30 INFO - 1268 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-15 17:09:30 INFO - 1269 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-15 17:09:30 INFO - 1271 [main] Quartz scheduler version: 2.2.1
+2014-10-15 17:09:30 INFO - 1296 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-15 17:09:30 WARN - 1298 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-15 17:09:30 WARN - 1308 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-15 17:09:30 WARN - 1325 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-15 17:09:30 WARN - 1327 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-15 17:09:30 INFO - 1329 [main] yigo Weixin application context load complete.
+2014-10-15 17:09:30 INFO - 1452 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-15 17:09:30 INFO - 1453 [main] >> server started
+2014-10-15 17:11:05 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-15 17:11:06 WARN - 791 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-15 17:11:06 WARN - 793 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-15 17:11:06 WARN - 795 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-15 17:11:06 WARN - 798 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-15 17:11:06 WARN - 800 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-15 17:11:06 WARN - 803 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-15 17:11:06 INFO - 812 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-15 17:11:06 INFO - 819 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-15 17:11:06 INFO - 821 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-15 17:11:06 INFO - 824 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-15 17:11:06 INFO - 826 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-15 17:11:06 WARN - 828 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-15 17:11:06 INFO - 829 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-15 17:11:06 INFO - 923 [main] start update weixinpublicnumber uname:123456
+2014-10-15 17:11:06 INFO - 952 [main] Key@keywordsReplyMessage value :待办
+2014-10-15 17:11:06 INFO - 956 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-15 17:11:06 INFO - 957 [main] end update weixinpublicnumber
+2014-10-15 17:11:06 INFO - 966 [main] start update weixinpublicnumber uname:53826
+2014-10-15 17:11:06 INFO - 995 [main] start update weixinpublicnumber uname:tacter
+2014-10-15 17:11:06 INFO - 997 [main] Key@keywordsReplyMessage value :行业案例
+2014-10-15 17:11:06 INFO - 998 [main] Key@keywordsReplyMessage value :私人定制
+2014-10-15 17:11:06 INFO - 1000 [main] Key@keywordsReplyMessage value :社员认证
+2014-10-15 17:11:06 INFO - 1001 [main] Key@keywordsReplyMessage value :企业文化
+2014-10-15 17:11:06 INFO - 1002 [main] Key@keywordsReplyMessage value :加入社员
+2014-10-15 17:11:06 INFO - 1003 [main] Key@keywordsReplyMessage value :活动私享
+2014-10-15 17:11:06 INFO - 1004 [main] Key@keywordsReplyMessage value :行业数据
+2014-10-15 17:11:06 INFO - 1005 [main] Key@keywordsReplyMessage value :业务咨询留言
+2014-10-15 17:11:06 INFO - 1006 [main] Key@keywordsReplyMessage value :联系我们
+2014-10-15 17:11:06 INFO - 1009 [main] Key@keywordsReplyMessage value :微信账号绑定
+2014-10-15 17:11:06 INFO - 1009 [main] Key@keywordsReplyMessage value :业务咨询
+2014-10-15 17:11:06 INFO - 1010 [main] Key@keywordsReplyMessage value :公社介绍
+2014-10-15 17:11:06 INFO - 1011 [main] Key@keywordsReplyMessage value :活动报名
+2014-10-15 17:11:06 INFO - 1012 [main] Key@keywordsReplyMessage value :行业政策
+2014-10-15 17:11:06 INFO - 1017 [main] Key@keywordsReplyMessage value :行业资讯
+2014-10-15 17:11:06 INFO - 1017 [main] Key@editKeywordsReplyMessage value :行业案例
+2014-10-15 17:11:06 INFO - 1018 [main] Key@editKeywordsReplyMessage value :私人定制
+2014-10-15 17:11:06 INFO - 1019 [main] Key@editKeywordsReplyMessage value :社员认证
+2014-10-15 17:11:06 INFO - 1020 [main] Key@editKeywordsReplyMessage value :企业文化
+2014-10-15 17:11:06 INFO - 1021 [main] Key@editKeywordsReplyMessage value :加入社员
+2014-10-15 17:11:06 INFO - 1022 [main] Key@editKeywordsReplyMessage value :活动私享
+2014-10-15 17:11:06 INFO - 1024 [main] Key@editKeywordsReplyMessage value :行业数据
+2014-10-15 17:11:06 INFO - 1025 [main] Key@editKeywordsReplyMessage value :业务咨询留言
+2014-10-15 17:11:06 INFO - 1027 [main] Key@editKeywordsReplyMessage value :联系我们
+2014-10-15 17:11:06 INFO - 1029 [main] Key@editKeywordsReplyMessage value :微信账号绑定
+2014-10-15 17:11:06 INFO - 1030 [main] Key@editKeywordsReplyMessage value :业务咨询
+2014-10-15 17:11:06 INFO - 1031 [main] Key@editKeywordsReplyMessage value :公社介绍
+2014-10-15 17:11:06 INFO - 1032 [main] Key@editKeywordsReplyMessage value :活动报名
+2014-10-15 17:11:06 INFO - 1033 [main] Key@editKeywordsReplyMessage value :行业政策
+2014-10-15 17:11:06 INFO - 1034 [main] Key@editKeywordsReplyMessage value :行业资讯
+2014-10-15 17:11:06 INFO - 1036 [main] end update weixinpublicnumber
+2014-10-15 17:11:06 WARN - 1038 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-15 17:11:06 INFO - 1116 [main] Using default implementation for ThreadExecutor
+2014-10-15 17:11:06 INFO - 1132 [main] Job execution threads will use class loader of thread: main
+2014-10-15 17:11:06 INFO - 1170 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-15 17:11:06 INFO - 1172 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-15 17:11:06 INFO - 1183 [main] RAMJobStore initialized.
+2014-10-15 17:11:06 INFO - 1189 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-15 17:11:06 INFO - 1190 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-15 17:11:06 INFO - 1192 [main] Quartz scheduler version: 2.2.1
+2014-10-15 17:11:06 INFO - 1223 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-15 17:11:11 WARN - 6113 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-15 17:11:23 WARN - 18158 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-15 17:11:23 WARN - 18159 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-15 17:11:23 WARN - 18161 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-15 17:11:23 INFO - 18163 [main] yigo Weixin application context load complete.
+2014-10-15 17:11:23 INFO - 18323 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-15 17:11:23 INFO - 18324 [main] >> server started
+2014-10-15 17:11:33 WARN - 27935 [qtp9820728-34] Ignoring extra content 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>关键词回复管理</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+	
+
+
+
+
+2014-10-15 17:11:40 INFO - 34949 [qtp9820728-37] user logined:123456

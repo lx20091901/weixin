@@ -1,0 +1,8 @@
+2014-10-27 08:39:06 ERROR -17280 [main] WeixinContextFactory INIT FAILED
+2014-10-27 08:39:06 ERROR -17288 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-27 13:59:26 ERROR -1001848 [qtp25218858-37] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:11:39 ERROR -20032 [qtp9102426-33] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:27:05 ERROR -946843 [qtp9102426-36] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:29:39 ERROR -1100191 [qtp9102426-36] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:35:01 ERROR -1422357 [qtp9102426-38] java.net.SocketTimeoutException: Read timed out
+2014-10-27 14:39:09 ERROR -1670300 [qtp9102426-33] java.net.SocketTimeoutException: Read timed out

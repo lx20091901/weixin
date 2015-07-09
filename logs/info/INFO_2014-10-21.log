@@ -1,0 +1,221 @@
+2014-10-21 13:42:09 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-21 13:42:10 WARN - 1330 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-21 13:42:10 WARN - 1332 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-21 13:42:10 WARN - 1336 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-21 13:42:10 WARN - 1357 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-21 13:42:10 WARN - 1362 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-21 13:42:10 WARN - 1366 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-21 13:42:10 INFO - 1388 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-21 13:42:10 INFO - 1391 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-21 13:42:10 INFO - 1394 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-21 13:42:10 INFO - 1396 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-21 13:42:10 INFO - 1398 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-21 13:42:10 WARN - 1400 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-21 13:42:10 INFO - 1402 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-21 13:42:10 INFO - 1616 [main] start update weixinpublicnumber uname:123456
+2014-10-21 13:42:10 INFO - 1653 [main] Key@keywordsReplyMessage value :待办
+2014-10-21 13:42:10 INFO - 1657 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-21 13:42:10 INFO - 1659 [main] end update weixinpublicnumber
+2014-10-21 13:42:11 INFO - 1687 [main] start update weixinpublicnumber uname:53826
+2014-10-21 13:42:11 INFO - 1773 [main] start update weixinpublicnumber uname:tacter
+2014-10-21 13:42:11 INFO - 1774 [main] Key@keywordsReplyMessage value :行业案例
+2014-10-21 13:42:11 INFO - 1777 [main] Key@keywordsReplyMessage value :私人定制
+2014-10-21 13:42:11 INFO - 1785 [main] Key@keywordsReplyMessage value :社员认证
+2014-10-21 13:42:11 INFO - 1786 [main] Key@keywordsReplyMessage value :企业文化
+2014-10-21 13:42:11 INFO - 1787 [main] Key@keywordsReplyMessage value :加入社员
+2014-10-21 13:42:11 INFO - 1788 [main] Key@keywordsReplyMessage value :活动私享
+2014-10-21 13:42:11 INFO - 1789 [main] Key@keywordsReplyMessage value :行业数据
+2014-10-21 13:42:11 INFO - 1792 [main] Key@keywordsReplyMessage value :业务咨询留言
+2014-10-21 13:42:11 INFO - 1794 [main] Key@keywordsReplyMessage value :联系我们
+2014-10-21 13:42:11 INFO - 1795 [main] Key@keywordsReplyMessage value :微信账号绑定
+2014-10-21 13:42:11 INFO - 1795 [main] Key@keywordsReplyMessage value :业务咨询
+2014-10-21 13:42:11 INFO - 1796 [main] Key@keywordsReplyMessage value :公社介绍
+2014-10-21 13:42:11 INFO - 1797 [main] Key@keywordsReplyMessage value :活动报名
+2014-10-21 13:42:11 INFO - 1798 [main] Key@keywordsReplyMessage value :行业政策
+2014-10-21 13:42:11 INFO - 1801 [main] Key@keywordsReplyMessage value :行业资讯
+2014-10-21 13:42:11 INFO - 1802 [main] Key@editKeywordsReplyMessage value :行业案例
+2014-10-21 13:42:11 INFO - 1803 [main] Key@editKeywordsReplyMessage value :私人定制
+2014-10-21 13:42:11 INFO - 1804 [main] Key@editKeywordsReplyMessage value :社员认证
+2014-10-21 13:42:11 INFO - 1805 [main] Key@editKeywordsReplyMessage value :企业文化
+2014-10-21 13:42:11 INFO - 1806 [main] Key@editKeywordsReplyMessage value :加入社员
+2014-10-21 13:42:11 INFO - 1807 [main] Key@editKeywordsReplyMessage value :活动私享
+2014-10-21 13:42:11 INFO - 1808 [main] Key@editKeywordsReplyMessage value :行业数据
+2014-10-21 13:42:11 INFO - 1809 [main] Key@editKeywordsReplyMessage value :业务咨询留言
+2014-10-21 13:42:11 INFO - 1811 [main] Key@editKeywordsReplyMessage value :联系我们
+2014-10-21 13:42:11 INFO - 1812 [main] Key@editKeywordsReplyMessage value :微信账号绑定
+2014-10-21 13:42:11 INFO - 1813 [main] Key@editKeywordsReplyMessage value :业务咨询
+2014-10-21 13:42:11 INFO - 1814 [main] Key@editKeywordsReplyMessage value :公社介绍
+2014-10-21 13:42:11 INFO - 1815 [main] Key@editKeywordsReplyMessage value :活动报名
+2014-10-21 13:42:11 INFO - 1816 [main] Key@editKeywordsReplyMessage value :行业政策
+2014-10-21 13:42:11 INFO - 1817 [main] Key@editKeywordsReplyMessage value :行业资讯
+2014-10-21 13:42:11 INFO - 1818 [main] end update weixinpublicnumber
+2014-10-21 13:42:11 WARN - 1820 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-21 13:42:11 INFO - 1912 [main] Using default implementation for ThreadExecutor
+2014-10-21 13:42:11 INFO - 1921 [main] Job execution threads will use class loader of thread: main
+2014-10-21 13:42:11 INFO - 1963 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-21 13:42:11 INFO - 1966 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-21 13:42:11 INFO - 1975 [main] RAMJobStore initialized.
+2014-10-21 13:42:11 INFO - 1980 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-21 13:42:11 INFO - 1981 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-21 13:42:11 INFO - 1983 [main] Quartz scheduler version: 2.2.1
+2014-10-21 13:42:11 INFO - 2017 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-21 13:42:11 WARN - 2041 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-21 13:42:11 WARN - 2043 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-21 13:42:11 WARN - 2046 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-21 13:42:11 WARN - 2047 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-21 13:42:11 INFO - 2086 [main] yigo Weixin application context load complete.
+2014-10-21 13:42:11 INFO - 2389 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-21 13:42:11 INFO - 2390 [main] >> server started
+2014-10-21 13:50:05 INFO - 476257 [qtp9102426-34] Request forbidden:1.1.8.16
+2014-10-21 13:52:11 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-21 13:52:12 WARN - 1047 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-21 13:52:12 WARN - 1049 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-21 13:52:12 WARN - 1052 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-21 13:52:12 WARN - 1054 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-21 13:52:12 WARN - 1056 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-21 13:52:12 WARN - 1059 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-21 13:52:12 INFO - 1073 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-21 13:52:12 INFO - 1077 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-21 13:52:12 INFO - 1080 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-21 13:52:12 INFO - 1082 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-21 13:52:12 INFO - 1085 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-21 13:52:12 WARN - 1088 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-21 13:52:12 INFO - 1089 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-21 13:52:12 INFO - 1200 [main] start update weixinpublicnumber uname:123456
+2014-10-21 13:52:12 INFO - 1235 [main] Key@keywordsReplyMessage value :待办
+2014-10-21 13:52:12 INFO - 1239 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-21 13:52:12 INFO - 1241 [main] end update weixinpublicnumber
+2014-10-21 13:52:12 INFO - 1245 [main] start update weixinpublicnumber uname:53826
+2014-10-21 13:52:12 INFO - 1294 [main] start update weixinpublicnumber uname:tacter
+2014-10-21 13:52:12 INFO - 1295 [main] Key@keywordsReplyMessage value :留言
+2014-10-21 13:52:12 INFO - 1296 [main] Key@keywordsReplyMessage value :10
+2014-10-21 13:52:12 INFO - 1297 [main] Key@keywordsReplyMessage value :公告
+2014-10-21 13:52:12 INFO - 1299 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-21 13:52:12 INFO - 1300 [main] Key@keywordsReplyMessage value :新功能
+2014-10-21 13:52:12 INFO - 1303 [main] Key@keywordsReplyMessage value :图文
+2014-10-21 13:52:12 INFO - 1304 [main] Key@keywordsReplyMessage value :签收
+2014-10-21 13:52:12 INFO - 1305 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-21 13:52:12 INFO - 1307 [main] Key@editKeywordsReplyMessage value :10
+2014-10-21 13:52:12 INFO - 1308 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-21 13:52:12 INFO - 1309 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-21 13:52:12 INFO - 1309 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-21 13:52:12 INFO - 1311 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-21 13:52:12 INFO - 1312 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-21 13:52:12 INFO - 1314 [main] end update weixinpublicnumber
+2014-10-21 13:52:12 WARN - 1316 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-21 13:52:12 INFO - 1385 [main] Using default implementation for ThreadExecutor
+2014-10-21 13:52:13 INFO - 1396 [main] Job execution threads will use class loader of thread: main
+2014-10-21 13:52:13 INFO - 1447 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-21 13:52:13 INFO - 1450 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-21 13:52:13 INFO - 1498 [main] RAMJobStore initialized.
+2014-10-21 13:52:13 INFO - 1501 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-21 13:52:13 INFO - 1502 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-21 13:52:13 INFO - 1503 [main] Quartz scheduler version: 2.2.1
+2014-10-21 13:52:13 INFO - 1535 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-21 13:52:13 WARN - 1537 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-21 13:52:13 WARN - 1545 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-21 13:52:13 WARN - 1548 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-21 13:52:13 WARN - 1551 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-21 13:52:13 INFO - 1554 [main] yigo Weixin application context load complete.
+2014-10-21 13:52:13 ERROR - 1566 [%0043%0041%0043%0048%0045_%0057%0045%0049%0058%0049%004e_%0050%0055%0042%004c%0049%0043%004e%0055%004d%0042%0045%0052_%0053%0043%004f%0050%0045.data] Disk Write of tacter failed: 
+java.io.NotSerializableException: com.bokesoft.thirdparty.weixin.bean.message.Article
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.ArrayList.writeObject(ArrayList.java:570)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:416)
+	at net.sf.ehcache.Element.writeObject(Element.java:835)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:405)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:384)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:485)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1088)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1072)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:207)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-10-21 13:52:13 INFO - 1708 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-21 13:52:13 INFO - 1709 [main] >> server started
+2014-10-21 13:53:41 INFO - 89778 [qtp9820728-37] Analyze >> word:Q
+2014-10-21 13:53:47 INFO - 95644 [qtp9820728-37] request message:{"content":"Q","createTime":1413870804,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6072528864149941408,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-21 13:53:47 INFO - 95645 [qtp9820728-37] reply   message:{"content":"菜单功能学习中!","createTime":1413870821389,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-21 13:54:27 INFO - 136277 [qtp9820728-33] request message:{"createTime":1413870842,"event":"CLICK","eventKey":"新功能","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgType":"event","reply":false,"serviceKey":"新功能","toUserName":"gh_45c07b0897a7"}
+2014-10-21 13:54:27 INFO - 136278 [qtp9820728-33] reply   message:{"content":"更多新功能正在研发中!","createTime":1413870863846,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-21 13:55:59 INFO - 227912 [qtp9820728-35] request message:{"createTime":1413870884,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","label":"普陀区中江路388号","location_X":"31.225503","location_Y":"121.394041","msgId":"6072529207747325101","msgType":"location","reply":false,"scale":"15","toUserName":"gh_45c07b0897a7"}
+2014-10-21 13:55:59 INFO - 227927 [qtp9820728-35] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-21 13:56:15 ERROR - 243895 [qtp9820728-39] Please config your unsubscribe message
+2014-10-21 13:56:15 INFO - 243897 [qtp9820728-39] request message:{"createTime":1413870937,"event":"unsubscribe","eventKey":"","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-21 13:56:15 INFO - 243897 [qtp9820728-39] reply   message:{"content":"","createTime":1413870975504,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-21 13:56:29 INFO - 258319 [qtp9820728-33] request message:{"createTime":1413870955,"event":"subscribe","eventKey":"","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-21 13:56:29 INFO - 258329 [qtp9820728-33] reply   message:{"content":"欢迎关注我们！ \n\n--SCM供应链系统","createTime":1413870989927,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-21 13:58:44 ERROR - 392628 [qtp9820728-36] Please config your unsubscribe message
+2014-10-21 13:58:44 INFO - 392630 [qtp9820728-36] request message:{"createTime":1413871108,"event":"unsubscribe","eventKey":"","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-21 13:58:44 INFO - 392630 [qtp9820728-36] reply   message:{"content":"","createTime":1413871124238,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-21 13:58:59 INFO - 407494 [qtp9820728-35] request message:{"createTime":1413871131,"event":"subscribe","eventKey":"","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-21 13:58:59 INFO - 407497 [qtp9820728-35] reply   message:{"content":"欢迎关注我们！ \n\n--SCM供应链系统","createTime":1413871139102,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-21 14:26:21 INFO - 2049882 [qtp9820728-33] request message:{"createTime":1413872781,"event":"subscribe","eventKey":"","fromUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-21 14:26:21 INFO - 2049883 [qtp9820728-33] reply   message:{"content":"欢迎关注我们！ \n\n--SCM供应链系统","createTime":1413872781490,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk"}
+2014-10-21 14:26:29 INFO - 2058113 [qtp9820728-39] remote service:local,url:
+2014-10-21 14:26:29 ERROR - 2058114 [qtp9820728-39] please config your remote message reply,签收
+2014-10-21 14:26:29 INFO - 2058116 [qtp9820728-39] request message:{"createTime":1413872789,"event":"CLICK","eventKey":"签收","fromUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk","msgType":"event","reply":false,"serviceKey":"签收","toUserName":"gh_45c07b0897a7"}
+2014-10-21 14:26:29 INFO - 2058116 [qtp9820728-39] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-21 14:27:32 INFO - 2121342 [qtp9820728-35] remote service:local,url:
+2014-10-21 14:27:32 ERROR - 2121343 [qtp9820728-35] please config your remote message reply,签收
+2014-10-21 14:27:32 INFO - 2121344 [qtp9820728-35] request message:{"createTime":1413872849,"event":"CLICK","eventKey":"签收","fromUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk","msgType":"event","reply":false,"serviceKey":"签收","toUserName":"gh_45c07b0897a7"}
+2014-10-21 14:27:32 INFO - 2121347 [qtp9820728-35] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-21 14:44:55 INFO - 3163899 [qtp9820728-37] Analyze >> word:Q
+2014-10-21 14:44:55 INFO - 3163901 [qtp9820728-37] request message:{"content":"Q","createTime":1413873889,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6072542114124050099,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-21 14:44:55 INFO - 3163902 [qtp9820728-37] reply   message:{"content":"菜单功能学习中!","createTime":1413873895509,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}

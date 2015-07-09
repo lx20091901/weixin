@@ -1,0 +1,19 @@
+2014-10-24 16:11:20 ERROR -1759 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:11:20 ERROR -1764 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:12:39 ERROR -713 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:12:39 ERROR -714 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:13:38 ERROR -862 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:13:38 ERROR -864 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:18:52 ERROR -838 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:18:52 ERROR -840 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:24:59 ERROR -666 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:24:59 ERROR -668 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:28:05 ERROR -48163 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:28:05 ERROR -48165 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:49:48 ERROR -3873 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:49:48 ERROR -3875 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:56:29 ERROR -58905 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:56:29 ERROR -58908 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 16:57:27 ERROR -41712 [main] WeixinContextFactory INIT FAILED
+2014-10-24 16:57:27 ERROR -41715 [main] com.bokesoft.myerp.exception.BKError: java.io.StreamCorruptedException: invalid stream header: 44004200
+2014-10-24 17:27:15 ERROR -4397 [main] WeixinContextFactory INIT FAILED

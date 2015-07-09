@@ -1,0 +1,374 @@
+2014-10-23 08:53:58 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-23 08:54:00 WARN - 1498 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-23 08:54:00 WARN - 1500 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-23 08:54:00 WARN - 1540 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-23 08:54:00 WARN - 1556 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-23 08:54:00 WARN - 1560 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-23 08:54:00 WARN - 1577 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-23 08:54:00 INFO - 1693 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-23 08:54:00 INFO - 1714 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-23 08:54:00 INFO - 1725 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-23 08:54:00 INFO - 1728 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-23 08:54:00 INFO - 1740 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-23 08:54:00 WARN - 1744 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-23 08:54:00 INFO - 1746 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-23 08:54:00 INFO - 1930 [main] start update weixinpublicnumber uname:123456
+2014-10-23 08:54:00 INFO - 1981 [main] Key@keywordsReplyMessage value :待办
+2014-10-23 08:54:00 INFO - 1984 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-23 08:54:00 INFO - 2012 [main] end update weixinpublicnumber
+2014-10-23 08:54:00 INFO - 2055 [main] start update weixinpublicnumber uname:53826
+2014-10-23 08:54:00 INFO - 2083 [main] start update weixinpublicnumber uname:tacter
+2014-10-23 08:54:00 INFO - 2084 [main] Key@keywordsReplyMessage value :留言
+2014-10-23 08:54:00 INFO - 2086 [main] Key@keywordsReplyMessage value :10
+2014-10-23 08:54:00 INFO - 2087 [main] Key@keywordsReplyMessage value :公告
+2014-10-23 08:54:00 INFO - 2092 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-23 08:54:00 INFO - 2093 [main] Key@keywordsReplyMessage value :新功能
+2014-10-23 08:54:00 INFO - 2119 [main] Key@keywordsReplyMessage value :图文
+2014-10-23 08:54:00 INFO - 2121 [main] Key@keywordsReplyMessage value :签收
+2014-10-23 08:54:00 INFO - 2122 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-23 08:54:00 INFO - 2123 [main] Key@editKeywordsReplyMessage value :10
+2014-10-23 08:54:00 INFO - 2124 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-23 08:54:00 INFO - 2125 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-23 08:54:00 INFO - 2126 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-23 08:54:00 INFO - 2126 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-23 08:54:00 INFO - 2127 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-23 08:54:00 INFO - 2128 [main] end update weixinpublicnumber
+2014-10-23 08:54:00 WARN - 2131 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-23 08:54:00 INFO - 2259 [main] Using default implementation for ThreadExecutor
+2014-10-23 08:54:00 INFO - 2266 [main] Job execution threads will use class loader of thread: main
+2014-10-23 08:54:00 INFO - 2312 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-23 08:54:00 INFO - 2313 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-23 08:54:00 INFO - 2328 [main] RAMJobStore initialized.
+2014-10-23 08:54:00 INFO - 2333 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-23 08:54:00 INFO - 2334 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-23 08:54:00 INFO - 2335 [main] Quartz scheduler version: 2.2.1
+2014-10-23 08:54:00 INFO - 2367 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-23 08:54:00 WARN - 2390 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-23 08:54:01 WARN - 2430 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-23 08:54:01 WARN - 2468 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-23 08:54:01 WARN - 2472 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-23 08:54:01 INFO - 2493 [main] yigo Weixin application context load complete.
+2014-10-23 08:54:01 INFO - 2746 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-23 08:54:01 INFO - 2747 [main] >> server started
+2014-10-23 08:57:23 INFO - 204493 [qtp9820728-35] request message:{"content":"图文","createTime":1414025732,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6073194274843182882,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 08:57:23 INFO - 204494 [qtp9820728-35] reply   message:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?${userinfo}"}],"createTime":1414025839976,"fromUserName":"gh_45c07b0897a7","msgType":"news","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-23 09:16:25 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-23 09:16:26 WARN - 862 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-23 09:16:26 WARN - 864 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-23 09:16:26 WARN - 867 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-23 09:16:26 WARN - 869 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-23 09:16:26 WARN - 871 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-23 09:16:26 WARN - 874 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-23 09:16:26 INFO - 887 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-23 09:16:26 INFO - 890 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-23 09:16:26 INFO - 892 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-23 09:16:26 INFO - 894 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-23 09:16:26 INFO - 896 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-23 09:16:26 WARN - 898 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-23 09:16:26 INFO - 899 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-23 09:16:26 INFO - 991 [main] start update weixinpublicnumber uname:123456
+2014-10-23 09:16:26 INFO - 1022 [main] Key@keywordsReplyMessage value :待办
+2014-10-23 09:16:26 INFO - 1026 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-23 09:16:26 INFO - 1027 [main] end update weixinpublicnumber
+2014-10-23 09:16:26 INFO - 1032 [main] start update weixinpublicnumber uname:53826
+2014-10-23 09:16:26 INFO - 1055 [main] start update weixinpublicnumber uname:tacter
+2014-10-23 09:16:26 INFO - 1057 [main] Key@keywordsReplyMessage value :留言
+2014-10-23 09:16:26 INFO - 1059 [main] Key@keywordsReplyMessage value :10
+2014-10-23 09:16:26 INFO - 1060 [main] Key@keywordsReplyMessage value :公告
+2014-10-23 09:16:26 INFO - 1062 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-23 09:16:26 INFO - 1066 [main] Key@keywordsReplyMessage value :新功能
+2014-10-23 09:16:26 INFO - 1073 [main] Key@keywordsReplyMessage value :图文
+2014-10-23 09:16:26 INFO - 1074 [main] Key@keywordsReplyMessage value :签收
+2014-10-23 09:16:26 INFO - 1074 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-23 09:16:26 INFO - 1075 [main] Key@editKeywordsReplyMessage value :10
+2014-10-23 09:16:26 INFO - 1076 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-23 09:16:26 INFO - 1077 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-23 09:16:26 INFO - 1078 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-23 09:16:26 INFO - 1078 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-23 09:16:26 INFO - 1079 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-23 09:16:26 INFO - 1080 [main] end update weixinpublicnumber
+2014-10-23 09:16:26 WARN - 1082 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-23 09:16:26 INFO - 1136 [main] Using default implementation for ThreadExecutor
+2014-10-23 09:16:26 INFO - 1149 [main] Job execution threads will use class loader of thread: main
+2014-10-23 09:16:26 INFO - 1191 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-23 09:16:26 INFO - 1193 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-23 09:16:26 INFO - 1202 [main] RAMJobStore initialized.
+2014-10-23 09:16:26 INFO - 1204 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-23 09:16:26 INFO - 1212 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-23 09:16:26 INFO - 1215 [main] Quartz scheduler version: 2.2.1
+2014-10-23 09:16:26 INFO - 1240 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-23 09:16:26 WARN - 1242 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-23 09:16:26 WARN - 1243 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-23 09:16:26 WARN - 1246 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-23 09:16:26 WARN - 1251 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-23 09:16:26 INFO - 1254 [main] yigo Weixin application context load complete.
+2014-10-23 09:16:26 INFO - 1384 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-23 09:16:26 INFO - 1385 [main] >> server started
+2014-10-23 09:17:01 INFO - 35620 [qtp9820728-36] receivedWeixinLocationEventMessage{"createTime":1414027001,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223518","longitude":"121.389572","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:17:01 INFO - 35649 [qtp9820728-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414027021233,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223518","longitude":"121.389572","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 09:17:02 INFO - 36832 [qtp9820728-36] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:17:02 INFO - 36833 [qtp9820728-36] Retrying request
+2014-10-23 09:17:03 INFO - 37835 [qtp9820728-36] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:17:03 INFO - 37837 [qtp9820728-36] Retrying request
+2014-10-23 09:17:04 INFO - 38839 [qtp9820728-36] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:17:04 INFO - 38840 [qtp9820728-36] Retrying request
+2014-10-23 09:17:05 ERROR - 39844 [qtp9820728-36] java.net.ConnectException: Connection refused: connect
+2014-10-23 09:17:05 INFO - 39847 [qtp9820728-36] request message:{"createTime":1414027001,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223518","longitude":"121.389572","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:17:05 INFO - 39860 [qtp9820728-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 09:19:28 INFO - 182761 [qtp9820728-38] request message:{"content":"图文","createTime":1414027002,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6073199729451648896,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:19:28 INFO - 182791 [qtp9820728-38] reply   message:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?A84A74A43A86A79A52A86A99A86A56A77A82A53A88A72A82A86A80A47A89A108A90A49A118A75A112A99A121A87A71A49A83A71A69A112A114A112A49A68A56A87A69A89A98A77A90A69A56A110A47A73A97A112A103A116A89A104A85A113A115A51A74A83A85A82A83A114A113A107A48A65A75A108A82A89A61"}],"createTime":1414027168361,"fromUserName":"gh_45c07b0897a7","msgType":"news","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-23 09:20:07 WARN - 221566 [qtp9820728-35] Ignoring extra content 
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>YIGO微信服务管理平台首页</title>
+		<link href="css/style.css" rel="stylesheet"/>
+		<style type="text/css">
+			.zclip{
+				margin-top: -8px;
+			}
+		</style>
+	</head>
+	<body>
+	    
+
+
+
+
+2014-10-23 09:20:12 INFO - 227159 [qtp9820728-36] user logined:tacter
+2014-10-23 09:20:32 INFO - 247229 [qtp9820728-39] UPDATE MESSAGE:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?openid=${openid}"}],"createTime":0,"msgType":"news","reply":true,"serviceKey":"图文"}
+2014-10-23 09:21:43 INFO - 317616 [qtp9820728-39] request message:{"content":"图文","createTime":1414027261,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6073200841848178569,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:21:43 INFO - 317617 [qtp9820728-39] reply   message:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?openid=od7B1jrHC6rzRYF8T_dQq8YhovVM"}],"createTime":1414027303227,"fromUserName":"gh_45c07b0897a7","msgType":"news","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-23 09:30:59 INFO - 0 [main] jetty-8.1.14.v20131031
+2014-10-23 09:31:01 WARN - 1163 [main] server.soa.weixin.subscribe_message is empty,using default:欢迎关注我们！
+2014-10-23 09:31:01 WARN - 1165 [main] server.soa.weixin.default_reply_message is empty,using default:没有找到该关键词！
+2014-10-23 09:31:01 WARN - 1173 [main] server.soa.weixin.weixinmessage_logger is empty,using default:com.bokesoft.thirdparty.weixin.service.Log4jWeixinMessageLogger
+2014-10-23 09:31:01 WARN - 1196 [main] server.soa.weixin.remote_message_handle is empty,using default:com.bokesoft.thirdparty.weixin.remote.extend.DefaultWeixinRemoteMessageHandle
+2014-10-23 09:31:01 WARN - 1200 [main] server.soa.weixin.weixinmessage_Handle is empty,using default:com.bokesoft.thirdparty.weixin.service.WeixinMessageHandleImpl
+2014-10-23 09:31:01 WARN - 1213 [main] server.soa.weixin.remote_proxys is empty,using default:
+2014-10-23 09:31:01 INFO - 1316 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.jar.WeixinDaiban,trigger:审批
+2014-10-23 09:31:01 INFO - 1346 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationFindFlowTest,trigger:附近
+2014-10-23 09:31:01 INFO - 1359 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.location.LocationGoFlowTest,trigger:我要去
+2014-10-23 09:31:01 INFO - 1363 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.weather.WeixinRemoteTextMessageWeatherCellHandle,trigger:天气
+2014-10-23 09:31:01 INFO - 1375 [main] load class from remote.properties:com.bokesoft.thirdparty.weixin.example.flow.DefaultFlowTest,trigger:远程测试
+2014-10-23 09:31:01 WARN - 1381 [main] server.soa.weixin.weixinpublicnumber_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberProvider
+2014-10-23 09:31:01 INFO - 1382 [main] Publicnumber-config-path:E:\wx-conf
+2014-10-23 09:31:01 INFO - 1484 [main] start update weixinpublicnumber uname:123456
+2014-10-23 09:31:01 INFO - 1515 [main] Key@keywordsReplyMessage value :待办
+2014-10-23 09:31:01 INFO - 1518 [main] Key@editKeywordsReplyMessage value :待办
+2014-10-23 09:31:01 INFO - 1522 [main] end update weixinpublicnumber
+2014-10-23 09:31:01 INFO - 1527 [main] start update weixinpublicnumber uname:53826
+2014-10-23 09:31:01 INFO - 1554 [main] start update weixinpublicnumber uname:tacter
+2014-10-23 09:31:01 INFO - 1555 [main] Key@keywordsReplyMessage value :留言
+2014-10-23 09:31:01 INFO - 1557 [main] Key@keywordsReplyMessage value :10
+2014-10-23 09:31:01 INFO - 1558 [main] Key@keywordsReplyMessage value :公告
+2014-10-23 09:31:01 INFO - 1564 [main] Key@keywordsReplyMessage value :绑定微信
+2014-10-23 09:31:01 INFO - 1565 [main] Key@keywordsReplyMessage value :新功能
+2014-10-23 09:31:01 INFO - 1569 [main] Key@keywordsReplyMessage value :图文
+2014-10-23 09:31:01 INFO - 1570 [main] Key@keywordsReplyMessage value :签收
+2014-10-23 09:31:01 INFO - 1571 [main] Key@editKeywordsReplyMessage value :留言
+2014-10-23 09:31:01 INFO - 1572 [main] Key@editKeywordsReplyMessage value :10
+2014-10-23 09:31:01 INFO - 1572 [main] Key@editKeywordsReplyMessage value :公告
+2014-10-23 09:31:01 INFO - 1573 [main] Key@editKeywordsReplyMessage value :绑定微信
+2014-10-23 09:31:01 INFO - 1574 [main] Key@editKeywordsReplyMessage value :新功能
+2014-10-23 09:31:01 INFO - 1576 [main] Key@editKeywordsReplyMessage value :图文
+2014-10-23 09:31:01 INFO - 1579 [main] Key@editKeywordsReplyMessage value :签收
+2014-10-23 09:31:01 INFO - 1580 [main] end update weixinpublicnumber
+2014-10-23 09:31:01 WARN - 1585 [main] server.soa.weixin.weixinsession_provider is empty,using default:com.bokesoft.thirdparty.weixin.session.LocalWeixinSessionProvider
+2014-10-23 09:31:01 INFO - 1650 [main] Using default implementation for ThreadExecutor
+2014-10-23 09:31:01 INFO - 1664 [main] Job execution threads will use class loader of thread: main
+2014-10-23 09:31:01 INFO - 1709 [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-10-23 09:31:01 INFO - 1711 [main] Quartz Scheduler v.2.2.1 created.
+2014-10-23 09:31:01 INFO - 1719 [main] RAMJobStore initialized.
+2014-10-23 09:31:01 INFO - 1723 [main] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-10-23 09:31:01 INFO - 1724 [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-10-23 09:31:01 INFO - 1726 [main] Quartz scheduler version: 2.2.1
+2014-10-23 09:31:01 INFO - 1759 [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-10-23 09:31:01 WARN - 1763 [main] server.soa.weixin.attachment_manager is empty,using default:com.bokesoft.thirdparty.attachment.LocalAttachmentManager
+2014-10-23 09:31:01 WARN - 1791 [main] server.soa.weixin.weixinpublicnumbermanagerinfo_provider is empty,using default:com.bokesoft.thirdparty.weixin.publicnumber.LocalWeixinPublicNumberManagerInfoProvider
+2014-10-23 09:31:01 WARN - 1793 [main] server.soa.weixin.weixin_message_service_filters is empty,using default:
+2014-10-23 09:31:01 WARN - 1806 [main] server.soa.weixin.weixinremotemessage_service_filters is empty,using default:
+2014-10-23 09:31:01 INFO - 1827 [main] yigo Weixin application context load complete.
+2014-10-23 09:31:01 INFO - 1956 [main] Started SelectChannelConnector@0.0.0.0:8300
+2014-10-23 09:31:01 INFO - 1957 [main] >> server started
+2014-10-23 09:31:22 INFO - 22168 [qtp9820728-35] receivedWeixinLocationEventMessage{"createTime":1414027870,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223392","longitude":"121.388969","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:31:22 INFO - 22189 [qtp9820728-35] handleWeixinRemoteLocationEventMessage:{"createTime":1414027882143,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223392","longitude":"121.388969","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 09:31:23 INFO - 23304 [qtp9820728-35] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:31:23 INFO - 23305 [qtp9820728-35] Retrying request
+2014-10-23 09:31:24 INFO - 24308 [qtp9820728-35] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:31:24 INFO - 24309 [qtp9820728-35] Retrying request
+2014-10-23 09:31:25 INFO - 25311 [qtp9820728-35] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:31:25 INFO - 25312 [qtp9820728-35] Retrying request
+2014-10-23 09:31:26 ERROR - 26319 [qtp9820728-35] java.net.ConnectException: Connection refused: connect
+2014-10-23 09:31:26 INFO - 26320 [qtp9820728-35] request message:{"createTime":1414027870,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223392","longitude":"121.388969","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:31:26 INFO - 26333 [qtp9820728-35] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 09:31:37 INFO - 37228 [qtp9820728-37] request message:{"content":"图文","createTime":1414027892,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6073203551972542379,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:31:37 INFO - 37258 [qtp9820728-37] reply   message:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?openid=od7B1jrHC6rzRYF8T_dQq8YhovVM"}],"createTime":1414027897186,"fromUserName":"gh_45c07b0897a7","msgType":"news","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-23 09:32:02 INFO - 62108 [qtp9820728-35] request message:{"content":"图文","createTime":1414027920,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6073203672231626668,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:32:02 INFO - 62109 [qtp9820728-35] reply   message:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?openid=od7B1jrHC6rzRYF8T_dQq8YhovVM"}],"createTime":1414027922082,"fromUserName":"gh_45c07b0897a7","msgType":"news","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-23 09:34:39 INFO - 219931 [qtp9820728-34] request message:{"content":"图文","createTime":1414027951,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6073203805375612847,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:34:39 INFO - 219936 [qtp9820728-34] reply   message:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?openid=od7B1jrHC6rzRYF8T_dQq8YhovVM"}],"createTime":1414028002865,"fromUserName":"gh_45c07b0897a7","msgType":"news","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-23 09:38:44 INFO - 464507 [qtp9820728-34] receivedWeixinLocationEventMessage{"createTime":1414028325,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223375","longitude":"121.389015","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:38:44 INFO - 464508 [qtp9820728-34] handleWeixinRemoteLocationEventMessage:{"createTime":1414028324482,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223375","longitude":"121.389015","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 09:38:45 INFO - 465515 [qtp9820728-34] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:38:45 INFO - 465516 [qtp9820728-34] Retrying request
+2014-10-23 09:38:46 INFO - 466516 [qtp9820728-34] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:38:46 INFO - 466517 [qtp9820728-34] Retrying request
+2014-10-23 09:38:47 INFO - 467518 [qtp9820728-34] I/O exception (java.net.ConnectException) caught when processing request: Connection refused: connect
+2014-10-23 09:38:47 INFO - 467519 [qtp9820728-34] Retrying request
+2014-10-23 09:38:48 INFO - 468174 [qtp9820728-37] request message:{"content":"图文","createTime":1414028329,"fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","msgId":6073205428873250776,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:38:48 INFO - 468176 [qtp9820728-37] reply   message:{"articleCount":1,"articles":[{"description":"","picUrl":"http://wk1.skypiea.info/yigo/m.do?type=wx-download-image&filePath=tacter/api.png&completeName=api.png","title":"精美图文二维码秀","url":"http://www.baidu.com?openid=od7B1jrHC6rzRYF8T_dQq8YhovVM"}],"createTime":1414028328148,"fromUserName":"gh_45c07b0897a7","msgType":"news","reply":true,"toUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM"}
+2014-10-23 09:38:48 ERROR - 468516 [qtp9820728-34] java.net.ConnectException: Connection refused: connect
+2014-10-23 09:38:48 INFO - 468517 [qtp9820728-34] request message:{"createTime":1414028325,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223375","longitude":"121.389015","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 09:38:48 INFO - 468518 [qtp9820728-34] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 10:10:20 INFO - 2360535 [qtp9820728-38] receivedWeixinLocationEventMessage{"createTime":1414030206,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223392","longitude":"121.389114","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:10:20 INFO - 2360540 [qtp9820728-38] handleWeixinRemoteLocationEventMessage:{"createTime":1414030220514,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223392","longitude":"121.389114","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 10:10:22 INFO - 2362669 [qtp9820728-38] request message:{"createTime":1414030206,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223392","longitude":"121.389114","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:10:22 INFO - 2362671 [qtp9820728-38] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 10:11:30 INFO - 2430854 [qtp9820728-36] receivedWeixinLocationEventMessage{"createTime":1414030274,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223377","longitude":"121.389069","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:11:38 INFO - 2438074 [qtp9820728-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414030293834,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223377","longitude":"121.389069","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 10:12:06 INFO - 2466639 [qtp9820728-36] request message:{"createTime":1414030274,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223377","longitude":"121.389069","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:12:06 INFO - 2466645 [qtp9820728-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 10:14:13 INFO - 2593635 [qtp9820728-34] receivedWeixinLocationEventMessage{"createTime":1414030454,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223621","longitude":"121.389793","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:14:13 INFO - 2593636 [qtp9820728-34] handleWeixinRemoteLocationEventMessage:{"createTime":1414030453610,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223621","longitude":"121.389793","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 10:14:13 INFO - 2593757 [qtp9820728-34] request message:{"createTime":1414030454,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223621","longitude":"121.389793","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:14:13 INFO - 2593758 [qtp9820728-34] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 10:42:29 INFO - 4289740 [qtp9820728-36] receivedWeixinLocationEventMessage{"createTime":1414032150,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223442","longitude":"121.388969","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:42:29 INFO - 4289741 [qtp9820728-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414032149715,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223442","longitude":"121.388969","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 10:42:29 INFO - 4289883 [qtp9820728-36] request message:{"createTime":1414032150,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223442","longitude":"121.388969","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 10:42:29 INFO - 4289884 [qtp9820728-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 11:20:15 INFO - 6555937 [qtp9820728-37] receivedWeixinLocationEventMessage{"createTime":1414034267,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223373","longitude":"121.388977","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 11:20:15 INFO - 6555940 [qtp9820728-37] handleWeixinRemoteLocationEventMessage:{"createTime":1414034415914,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223373","longitude":"121.388977","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 11:20:16 INFO - 6556101 [qtp9820728-37] request message:{"createTime":1414034267,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223373","longitude":"121.388977","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 11:20:16 INFO - 6556102 [qtp9820728-37] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 11:21:28 INFO - 6628545 [qtp9820728-37] receivedWeixinLocationEventMessage{"createTime":1414034425,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223389","longitude":"121.389030","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 11:21:28 INFO - 6628547 [qtp9820728-37] handleWeixinRemoteLocationEventMessage:{"createTime":1414034488521,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223389","longitude":"121.389030","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 11:21:28 INFO - 6628692 [qtp9820728-37] request message:{"createTime":1414034425,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223389","longitude":"121.389030","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 11:21:28 INFO - 6628693 [qtp9820728-37] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 11:21:30 INFO - 6630268 [qtp9820728-36] receivedWeixinLocationEventMessage{"createTime":1414034426,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223398","longitude":"121.389046","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 11:21:30 INFO - 6630269 [qtp9820728-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414034490243,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223398","longitude":"121.389046","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 11:21:30 INFO - 6630536 [qtp9820728-36] request message:{"createTime":1414034426,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223398","longitude":"121.389046","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 11:21:30 INFO - 6630537 [qtp9820728-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 13:45:53 WARN - 15293605 [qtp9820728-34] Ignoring extra content 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>关键词回复管理</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+	
+
+
+
+
+2014-10-23 15:15:40 INFO - 20680868 [qtp9820728-36] request message:{"createTime":1414048518,"event":"CLICK","eventKey":"新功能","fromUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk","msgType":"event","reply":false,"serviceKey":"新功能","toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:15:40 INFO - 20680892 [qtp9820728-36] reply   message:{"content":"更多新功能正在研发中!","createTime":1414048540831,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk"}
+2014-10-23 15:42:32 INFO - 22292311 [qtp9820728-37] request message:{"createTime":1414050131,"event":"subscribe","eventKey":"","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:42:32 INFO - 22292341 [qtp9820728-37] reply   message:{"content":"欢迎关注我们！ \n\n--SCM供应链系统","createTime":1414050152285,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jmrhw3f_r6lq-fejpNd042k"}
+2014-10-23 15:42:52 INFO - 22312340 [qtp9820728-37] receivedWeixinLocationEventMessage{"createTime":1414050155,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223600","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:42:52 INFO - 22312341 [qtp9820728-37] handleWeixinRemoteLocationEventMessage:{"createTime":1414050172315,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223600","longitude":"121.388771","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 15:42:53 INFO - 22313104 [qtp9820728-37] request message:{"createTime":1414050155,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223600","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:42:53 INFO - 22313105 [qtp9820728-37] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 15:43:18 INFO - 22338245 [qtp9820728-35] receivedWeixinLocationEventMessage{"createTime":1414050184,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223600","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:43:18 INFO - 22338247 [qtp9820728-35] handleWeixinRemoteLocationEventMessage:{"createTime":1414050198220,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223600","longitude":"121.388771","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 15:43:18 INFO - 22338501 [qtp9820728-35] request message:{"createTime":1414050184,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223600","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:43:18 INFO - 22338502 [qtp9820728-35] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 15:47:20 ERROR - 22580887 [qtp9820728-38] Please config your unsubscribe message
+2014-10-23 15:47:20 INFO - 22580903 [qtp9820728-38] request message:{"createTime":1414050415,"event":"unsubscribe","eventKey":"","fromUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:47:20 INFO - 22580904 [qtp9820728-38] reply   message:{"content":"","createTime":1414050440877,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk"}
+2014-10-23 15:47:51 INFO - 22611316 [qtp9820728-38] request message:{"createTime":1414050453,"event":"subscribe","eventKey":"","fromUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:47:51 INFO - 22611317 [qtp9820728-38] reply   message:{"content":"欢迎关注我们！ \n\n--SCM供应链系统","createTime":1414050471290,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk"}
+2014-10-23 15:49:29 INFO - 22709637 [qtp9820728-33] receivedWeixinLocationEventMessage{"createTime":1414050538,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223558","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:49:29 INFO - 22709638 [qtp9820728-33] handleWeixinRemoteLocationEventMessage:{"createTime":1414050569612,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223558","longitude":"121.388771","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 15:49:29 INFO - 22709897 [qtp9820728-33] request message:{"createTime":1414050538,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223558","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:49:29 INFO - 22709898 [qtp9820728-33] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 15:49:55 INFO - 22735558 [qtp9820728-38] receivedWeixinLocationEventMessage{"createTime":1414050576,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223558","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:49:55 INFO - 22735561 [qtp9820728-38] handleWeixinRemoteLocationEventMessage:{"createTime":1414050595535,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223558","longitude":"121.388771","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 15:49:55 INFO - 22735714 [qtp9820728-38] request message:{"createTime":1414050576,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223558","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:49:55 INFO - 22735715 [qtp9820728-38] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 15:51:04 INFO - 22804188 [qtp9820728-37] receivedWeixinLocationEventMessage{"createTime":1414050651,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223606","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:51:04 INFO - 22804189 [qtp9820728-37] handleWeixinRemoteLocationEventMessage:{"createTime":1414050664163,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223606","longitude":"121.388771","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 15:51:04 INFO - 22804423 [qtp9820728-37] request message:{"createTime":1414050651,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223606","longitude":"121.388771","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:51:04 INFO - 22804424 [qtp9820728-37] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 15:52:06 INFO - 22866468 [qtp9820728-34] receivedWeixinLocationEventMessage{"createTime":1414050726,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223421","longitude":"121.389038","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:52:06 INFO - 22866469 [qtp9820728-34] handleWeixinRemoteLocationEventMessage:{"createTime":1414050726443,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223421","longitude":"121.389038","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 15:52:06 INFO - 22866637 [qtp9820728-34] request message:{"createTime":1414050726,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223421","longitude":"121.389038","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:52:06 INFO - 22866638 [qtp9820728-34] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 15:57:32 INFO - 23192856 [qtp9820728-38] receivedWeixinLocationEventMessage{"createTime":1414051053,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223591","longitude":"121.388741","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:57:32 INFO - 23192863 [qtp9820728-38] handleWeixinRemoteLocationEventMessage:{"createTime":1414051052835,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","index":0,"latitude":"31.223591","longitude":"121.388741","msgType":"remote_locationevent","password":"","precision":"40.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 15:57:32 INFO - 23192985 [qtp9820728-38] request message:{"createTime":1414051053,"event":"LOCATION","fromUserName":"od7B1jmrhw3f_r6lq-fejpNd042k","latitude":"31.223591","longitude":"121.388741","msgType":"event","precision":"40.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 15:57:32 INFO - 23192986 [qtp9820728-38] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:04:36 INFO - 23616463 [qtp9820728-38] receivedWeixinLocationEventMessage{"createTime":1414051476,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223421","longitude":"121.389038","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:04:36 INFO - 23616465 [qtp9820728-38] handleWeixinRemoteLocationEventMessage:{"createTime":1414051476439,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223421","longitude":"121.389038","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:04:36 INFO - 23616598 [qtp9820728-38] request message:{"createTime":1414051476,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223421","longitude":"121.389038","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:04:36 INFO - 23616599 [qtp9820728-38] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:33:24 INFO - 25344513 [qtp9820728-33] Analyze >> word:1
+2014-10-23 16:33:24 INFO - 25344515 [qtp9820728-33] request message:{"content":"1","createTime":1414053205,"fromUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk","msgId":6073312270479708135,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:33:24 INFO - 25344516 [qtp9820728-33] reply   message:{"content":"菜单功能学习中!","createTime":1414053204489,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jq9JgIL__y51QCWa_AbC5hk"}
+2014-10-23 16:53:09 INFO - 26529946 [qtp9820728-35] receivedWeixinLocationEventMessage{"createTime":1414054389,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223324","longitude":"121.389084","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:53:09 INFO - 26529947 [qtp9820728-35] handleWeixinRemoteLocationEventMessage:{"createTime":1414054389921,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","index":0,"latitude":"31.223324","longitude":"121.389084","msgType":"remote_locationevent","password":"","precision":"65.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:53:10 INFO - 26530086 [qtp9820728-35] request message:{"createTime":1414054389,"event":"LOCATION","fromUserName":"od7B1jrHC6rzRYF8T_dQq8YhovVM","latitude":"31.223324","longitude":"121.389084","msgType":"event","precision":"65.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:53:10 INFO - 26530087 [qtp9820728-35] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:53:26 INFO - 26546697 [qtp9820728-34] request message:{"createTime":1414054407,"event":"subscribe","eventKey":"","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","msgType":"event","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:53:26 INFO - 26546700 [qtp9820728-34] reply   message:{"content":"欢迎关注我们！ \n\n--SCM供应链系统","createTime":1414054406671,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s"}
+2014-10-23 16:53:42 INFO - 26562359 [qtp9820728-38] receivedWeixinLocationEventMessage{"createTime":1414054422,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:53:42 INFO - 26562361 [qtp9820728-38] handleWeixinRemoteLocationEventMessage:{"createTime":1414054422335,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","index":0,"latitude":"31.223400","longitude":"121.389603","msgType":"remote_locationevent","password":"","precision":"30.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:53:42 INFO - 26562505 [qtp9820728-38] request message:{"createTime":1414054422,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:53:42 INFO - 26562506 [qtp9820728-38] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:54:30 INFO - 26610571 [qtp9820728-36] receivedWeixinLocationEventMessage{"createTime":1414054471,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:54:30 INFO - 26610572 [qtp9820728-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414054470546,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","index":0,"latitude":"31.223400","longitude":"121.389603","msgType":"remote_locationevent","password":"","precision":"30.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:54:30 INFO - 26610689 [qtp9820728-36] request message:{"createTime":1414054471,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:54:30 INFO - 26610689 [qtp9820728-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:56:12 INFO - 26712755 [qtp9820728-36] receivedWeixinLocationEventMessage{"createTime":1414054573,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:12 INFO - 26712756 [qtp9820728-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414054572730,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","index":0,"latitude":"31.223400","longitude":"121.389603","msgType":"remote_locationevent","password":"","precision":"30.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:56:12 INFO - 26712876 [qtp9820728-36] request message:{"createTime":1414054573,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:12 INFO - 26712878 [qtp9820728-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:56:20 INFO - 26720344 [qtp9820728-36] receivedWeixinLocationEventMessage{"createTime":1414054580,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:20 INFO - 26720346 [qtp9820728-36] handleWeixinRemoteLocationEventMessage:{"createTime":1414054580319,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","index":0,"latitude":"31.223400","longitude":"121.389603","msgType":"remote_locationevent","password":"","precision":"30.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:56:20 INFO - 26720485 [qtp9820728-36] request message:{"createTime":1414054580,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:20 INFO - 26720485 [qtp9820728-36] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:56:25 INFO - 26725328 [qtp9820728-38] receivedWeixinLocationEventMessage{"createTime":1414054585,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:25 INFO - 26725330 [qtp9820728-38] handleWeixinRemoteLocationEventMessage:{"createTime":1414054585304,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","index":0,"latitude":"31.223400","longitude":"121.389603","msgType":"remote_locationevent","password":"","precision":"30.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:56:25 INFO - 26725472 [qtp9820728-38] request message:{"createTime":1414054585,"event":"LOCATION","fromUserName":"od7B1jkwTqDGZBdyb1AxACA4-E4s","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:25 INFO - 26725474 [qtp9820728-38] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:56:30 INFO - 26730446 [qtp9820728-34] remote service:local,url:
+2014-10-23 16:56:30 ERROR - 26730455 [qtp9820728-34] please config your remote message reply,签收
+2014-10-23 16:56:30 INFO - 26730456 [qtp9820728-34] request message:{"createTime":1414054591,"event":"CLICK","eventKey":"签收","fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","msgType":"event","reply":false,"serviceKey":"签收","toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:30 INFO - 26730458 [qtp9820728-34] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:56:31 INFO - 26731661 [qtp9820728-33] receivedWeixinLocationEventMessage{"createTime":1414054592,"event":"LOCATION","fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","latitude":"31.223400","longitude":"121.389503","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:31 INFO - 26731663 [qtp9820728-33] handleWeixinRemoteLocationEventMessage:{"createTime":1414054591637,"event":"LOCATION","fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","index":0,"latitude":"31.223400","longitude":"121.389503","msgType":"remote_locationevent","password":"","precision":"30.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:56:31 INFO - 26731798 [qtp9820728-33] request message:{"createTime":1414054592,"event":"LOCATION","fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","latitude":"31.223400","longitude":"121.389503","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:31 INFO - 26731799 [qtp9820728-33] reply   message:{"createTime":0,"msgType":"waste","reply":true}
+2014-10-23 16:56:46 INFO - 26746186 [qtp9820728-34] Analyze >> word:擦擦
+2014-10-23 16:56:46 INFO - 26746188 [qtp9820728-34] request message:{"content":"擦擦","createTime":1414054606,"fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","msgId":6073318287728889903,"msgType":"text","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:56:46 INFO - 26746191 [qtp9820728-34] reply   message:{"content":"菜单功能学习中!","createTime":1414054606162,"fromUserName":"gh_45c07b0897a7","msgType":"text","reply":true,"toUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A"}
+2014-10-23 16:58:49 INFO - 26869996 [qtp9820728-34] receivedWeixinLocationEventMessage{"createTime":1414054730,"event":"LOCATION","fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:58:49 INFO - 26869997 [qtp9820728-34] handleWeixinRemoteLocationEventMessage:{"createTime":1414054729971,"event":"LOCATION","fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","index":0,"latitude":"31.223400","longitude":"121.389603","msgType":"remote_locationevent","password":"","precision":"30.000000","remoteType":"http","reply":false,"toUserName":"gh_45c07b0897a7","uname":"tacter","url":"http://1.1.8.36:8800/yigo/web2/mobile/LBSLocationSave.jsp","username":""}
+2014-10-23 16:58:50 INFO - 26870137 [qtp9820728-34] request message:{"createTime":1414054730,"event":"LOCATION","fromUserName":"od7B1jjNhe2C0CYw1xmAW7p71V2A","latitude":"31.223400","longitude":"121.389603","msgType":"event","precision":"30.000000","reply":false,"toUserName":"gh_45c07b0897a7"}
+2014-10-23 16:58:50 INFO - 26870138 [qtp9820728-34] reply   message:{"createTime":0,"msgType":"waste","reply":true}
